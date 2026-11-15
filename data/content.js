@@ -321,13 +321,14 @@ window.PORTFOLIO_DATA = {
       ],
       "role": "중앙대학교 공간연출과 졸업 작품 · 무대 디자인",
       "detail": "2024-1",
+      "layoutFile": "layout.json",
       "displayTitle": "필로우맨",
       "subtitle": "무대 디자인",
       "year": "2024",
       "context": "중앙대학교 공간연출 졸업 작품",
       "roleLabel": "무대 디자인",
       "credits": "무대 디자인 전아영",
-      "summary": "반복되는 사각형과 그리드, 왜곡된 원근으로 벗어날 수 없는 통제와 불확실함을 시각화한 졸업 작품입니다.",
+      "summary": "무대 디자인",
       "tools": [
         "Rhino",
         "V-Ray",
@@ -337,32 +338,121 @@ window.PORTFOLIO_DATA = {
         "Spatial"
       ],
       "coverFile": "high-res/original-01-f5dec1ba6e.jpg",
-      "sections": [
-        {
-          "title": "벗어날 수 없는 구조",
-          "text": "취조실, 과거의 저택, 옆방을 하나의 고정된 세트와 대도구 전환으로 연결했습니다. 천장까지 덮은 박스형 무대와 반복되는 그리드, 과투시를 통해 장소와 규모를 짐작하기 어려운 공간을 만들고자 했습니다."
-        },
-        {
-          "title": "같은 구조, 극명하게 다른 두 방",
-          "text": "카투리안과 마이클의 방은 비슷한 구조 안에서 분위기를 대비시켰습니다. 유리벽으로 내부를 노출해 감시와 실험의 이미지를 만들고, 소품과 빛의 차이로 두 인물이 겪은 환경을 드러냈습니다."
-        },
-        {
-          "title": "설계를 경험으로 확인하기",
-          "text": "Rhino와 V-Ray로 장면을 시각화하고, 도면과 장면별 스케치로 전환을 검토했습니다. Unity와 Spatial을 활용한 극장 시뮬레이션으로 공간을 확인했습니다."
-        }
-      ],
+      "sections": [],
       "contentSource": {
-        "file": "입시지원_포트폴리오.pdf",
+        "file": "포폴0124/Portfolio250804.pdf",
+        "sha256": "bd3221b3a9b30723568a0ff52fba978dcb42cc89d8c07b48c19bda2fccd83ed7",
         "pages": [
           19,
           20,
           21,
+          22,
+          23,
+          24,
           25,
           26,
           27
         ]
       },
       "coverDisplayFile": "web/original-01-f5dec1ba6e.webp",
+      "layout": {
+        "mode": "original-pages",
+        "source": {
+          "file": "포폴0124/Portfolio250804.pdf",
+          "sha256": "bd3221b3a9b30723568a0ff52fba978dcb42cc89d8c07b48c19bda2fccd83ed7",
+          "pages": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        },
+        "render": {
+          "format": "PNG",
+          "width": 3200,
+          "preservePageLayout": true,
+          "crop": false
+        },
+        "pages": [
+          {
+            "sourcePage": 19,
+            "path": "authored-layout/page-19.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "273c98c4dea67e0e7541277d8b49a98de515b0936729df91b3c9ff8fac77ec9c",
+            "text": "필로우맨 The Pillowman \n마틴 맥도너 Martin McDonagh\n잔인한 아동 폭력 소설을 써 온 작가 카투리안. 그의 작품이 최근 발생한 아동 살인 사건과 유사하다는 이유로 경찰에 \n체포된다. 형사 투폴스키와 에리얼은 그의 소설이 범죄와 연관이 있을 것이라 의심하며 심문을 시작한다. 취조실에서 \n카투리안은 자신의 이야기를 하나씩 풀고, 그 과정에서 카투리안과 지적 장애를 가진 그의 형 마이클이 어린 시절 겪은 \n끔찍한 과거가 밝혀진다. \n그는 소설 속 잔혹함이 부모의 학대에서 비롯된 것임을 고백하며 억울함을 호소한다. 그러나 마이클이 소설을 재현하\n고자 실제로 범행을 저질렀음을 알게 된 카투리안은 고뇌 끝에 형을 지키기 위해 형을 살해하는 선택을 하고, 모든 책\n임을 스스로 떠안은 채 자백한다. \n2024-1  졸업 작품ㅣ샤롯데씨어터 대극장  \n지도 교수  백영주\n무대 디자인   전아영\n19"
+          },
+          {
+            "sourcePage": 20,
+            "path": "authored-layout/page-20.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "1604e2b4c91a2e2b75cf6a0368daabf54bcbee53d8e0f051b66b8b1be59528b6",
+            "text": "CONCEPT 1\n#불확실함  #전체주의  #불명  #확장  #반복\n1) 장소를 파악할 수 없는 공간\n- 장소를 구체적으로 표현하지 않음\n- 교도소의 구조적 특징을 일부만 차용\n2) 개성을 허용치 않는 통제 속의 공간\n- 짙은 회색의 단조롭고 어두운 공간 분위기\n- 천장까지 덮은 박스형 무대 형태 \n마틴 맥도나의 <필로우맨>은 가상의 전체주의 국가를 배경으로 하는 부조리극으로, 작품 속 공간 이동은 취조실 → 저택(과거 \n재현극) → 취조실의 옆방 → 취조실로 이어지며, 수미상관 구조를 따른다. 주된 무대는 '취조실'로, (1)장소성을 파악할 수 없는 \n곳이며, (2) 전체주의 통제가 이루어지고 있는 공간이자, (3등장 인물들이 원인 모른채 끌려와 갇혀있는 공간이다.\n공간 이동(취조실 ↔ 저택 ↔ 옆방)은 하나의 고정된 세트를 기본으로  대도구 전환을 통해 이루어진다. 이러한 고정된 구조는 \n\"벗어날 수 없는 반복과 통제\"라는 컨셉을 강조하며, 과거와 현재가 교차하는 순간에도 사각형 구조와 그리드 패턴을 유지해 무\n너진 시공간의 경계를 표현하고자 했다.\n3) 규모를 짐작할 수 없는 공간\n- 그리드와 과투시를 통한 착시, \n공간의 왜곡 활용\n5) 끝을 정확히 알 수 없는 공간\n- 과투시를 통한 깊이감으로 확장\n- 끝을 알 수 없음에서의 공포\n- 정방형의 반복(그리드)\n4) 절대로 벗어날 수 없는 공간\n- 그리드에서 벗어나지 못하는 인물\n- 과거(재현극 1막2장)부터 이어지는 사각형의 반복\n전체적인 공간 컨셉\n20"
+          },
+          {
+            "sourcePage": 21,
+            "path": "authored-layout/page-21.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "961bcef88809c46891f037445d7fd6a57c5bac0c6807656548ce15d1a9b6a596",
+            "text": "CONCEPT 2\n#실험실  #극과극  #그로테스크\n1막 2장 과거 재현극, 카투리안과 마이클의 방 컨셉\n1막 2장1막 2장 (Detail)\n부모의 ‘예술적 실험’ 아래 정반대의 환경에서 자란 형제의 방이다.  구조는 비슷하지만 각 방이 가진 분위기는 극명히 대비시켜, 형제가 겪은 환경의 차\n이를 표현했다. 두 방은 유리벽으로 내부가 완전히 노출되어 있다. 이는 실험실에서 감시받고 있는 듯한 분위기를 연출하며, 동시에 극의 주제인 \"벗어날 \n수 없는 반복과 통제\"를 시각적으로 상징한다. 또한 풋라이트 조명 효과로 그로테스크한 분위기를 연출하고자 바닥에 라이트박스를 설치하였다. \n카투리안의 방(왼쪽): 불쾌한 골짜기\n전반적으로 밝고 창의적인 어린아이의 방처럼 보이지만, 가까이 들여다보면 묘한 불쾌감과 이질감이 느껴지도록 그로테스크\n한 요소를 추가했다. 봉제인형, 새의 시체, 페도필리아적 장난감 등 사이코패스적이고 이질적인 소품을 함께 배치하였다. \n마이클의 방(오른쪽): 고통\n부모의 고문이 이루어졌던 방으로, 고통 속에서 살아온 마이클의 현실을 사실적으로 보여준다. 황량하게 느껴지도록 공간을 \n단조롭게 구성했으며, 고문의 흔적을 나타내는 소품을 배치하여 잔혹함을 적나라하게 보여주고자 하였다. \n21"
+          },
+          {
+            "sourcePage": 22,
+            "path": "authored-layout/page-22.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "308da6143ccd4d74de9787624a6859dcbab45e2e4bfe8c48cb83b4c21b504b2d",
+            "text": "1막 1장 \n Scene 1\n경찰 취조실, 카투리안이 무대 중앙에 눈가리래를 쓴 채 의자에 앉아있다. 투폴스키와 에리얼이 등장한다.  \"옛날 옛적에, 엄마 아빠의 한없는 사랑을 받고 자란 행복한 소년이 있었습니다. 그는 아름다운 숲 속에 있는 커다란 집에 자기만의 방\n도 가지고 있었죠. 부모는 소년이 어려서부터 창의성을 발휘할 수 있도록 모든 예술적인 환경을 만들어 주었고, 소년은 화려한 색감이 \n넘치는 이야기들을 쓰게 되었습니다. 어쨋든 부모의 실험은 성공한 셈이었습니다. 아니, 그건 실험의 첫단계가 성공한 것이었습니다.\"\n1막 2장 \nScene 4\n22"
+          },
+          {
+            "sourcePage": 23,
+            "path": "authored-layout/page-23.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "15951fabb71043c95686be0c2bc1708544846576ac5c5652c35bcb5202d44370",
+            "text": "2막\n Scene 12\n마이클:  니가 옆방에서 들려오는 내 소리를 들으며 기분이 어떘는지 알 것 같았어. 한 마디 해줄게. 니 쪽 방이 훨씬 편해.\n카투리안:  그렇다고 사람을 죽여? 세 번째 아이는? 그 아이도 이야기대로 죽인거야?\n마이클:  너도 2명이나 죽였잖아! \n카투리안: 이 이야기가 제일 마은에 들지, 형? 이 이야기를 제일 좋아했잖아. 이상한 발가락도 안 나오고, 면도날도 없어. \n그냥 아름다운 이야기 고르려면 이 이야기를 고르지 그랬어. 형 잘못이 아니야, 형은 잘못한거 없어. 잘자, 내가 금방 따라갈게.\n2막 \nScene 14\n23"
+          },
+          {
+            "sourcePage": 24,
+            "path": "authored-layout/page-24.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "30e8e3d7acf5590a4cc7f474e89b8863e8027b5dfc9a182871dba737d0ea9efd",
+            "text": "3막\n Scene 16\n경찰 취조실, 카투리안이 급하게 긴 자백서를 쓰고 있따. 앉아있는 투폴스키에게 자신이 쓴 첫번째 장을 건넨다. \n에리얼은 서서 담배를 피우고 있다. \n카투리안:  전 꽤 훌륭한 작가였습니다. 제 꿈은 그것밖에 없었어요. 그래, 난 좋은 작가였어. 좋은 작가...\n투폴스키:  그래, 거기서 중요한 말은 '였다' 는 거지. 잘가 - \n3막 \nScene 20\n24"
+          },
+          {
+            "sourcePage": 25,
+            "path": "authored-layout/page-25.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "0ff182227d8bce8d7e7d607fa1e2d731b6d3fcc7218528a6b5c03b3125cf94b1",
+            "text": "카투리안 방(왼쪽), 마이클 방(오른쪽)\nDESIGN PROCESS  장면 스케치  /  디자인 스케치(1막 2장)\n  1    32\nAdobe Photoshop, Midjourney\n 1막 1장  취조실\n  1막 2장  저택: 카투리안의 방, 마이크의 방 (과거 재현극)\n2막   취조실 '옆방\n3막 취조실\n25"
+          },
+          {
+            "sourcePage": 26,
+            "path": "authored-layout/page-26.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "da1ea4c8f9fa5c3f703d26f7b8a64bf0bbb0c05c45511c3c16b425620ded540e",
+            "text": "Rhino 8  (렌더 엔진 V-Ray) \nDESIGN PROCESS 3D 모델링  /  visualization (PT)\nSpacial.io   온라인/VR 메타버스 플랫폼  활용, 극장 시뮬레이션 https://www.spatial.io/s/Pillowman \n Unity 5 (게임 엔진 프로그램)\n26"
+          },
+          {
+            "sourcePage": 27,
+            "path": "authored-layout/page-27.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "dff97194f3c443d2c4b1aa588aa8755357c3de441224159997275977729f4103",
+            "text": "DWG Rhino 8도면 \n27"
+          }
+        ]
+      },
       "coverUrl": "./projects/stage-pillowman/assets/high-res/original-01-f5dec1ba6e.jpg",
       "coverDisplayUrl": "./projects/stage-pillowman/assets/web/original-01-f5dec1ba6e.webp",
       "thumbnail": "./asset/thumbnails/stage-pillowman.jpg?v=e73f78332bf0"
@@ -540,39 +630,134 @@ window.PORTFOLIO_DATA = {
       ],
       "role": "2022-1 중앙대학교 연극학과 제작공연 · 무대 디자인",
       "detail": "2022.06.03 - 2022.06.05",
+      "layoutFile": "layout.json",
       "displayTitle": "살아있는 이중생 각하",
       "subtitle": "무대 디자인",
       "year": "2022",
       "context": "중앙대학교 연극학과 제작공연",
       "roleLabel": "공동 무대 디자인 · 제작",
       "credits": "공동 무대 디자인 전아영 · 우채원 / 연출 황윤진",
-      "summary": "광복 직후의 시대적 배경과 주인공의 이중성을, 서로 다른 양식이 뒤섞인 한옥의 구조와 디테일로 표현했습니다.",
+      "summary": "무대 디자인",
       "tools": [
         "SketchUp",
         "AutoCAD"
       ],
       "coverFile": "high-res/original-01-78746c16ed.png",
-      "sections": [
-        {
-          "title": "인물을 읽는 공간",
-          "text": "온돌방과 다다미방을 ㄱ자형으로 배치하고, 한옥의 벽 중앙에 일본식 원형문을 넣었습니다. 한국과 일본의 건축 요소가 공존하는 구조로 친일파인 이중생의 이중성을 드러내고자 했습니다."
-        },
-        {
-          "title": "호화롭지만 정돈되지 않은 집",
-          "text": "서양식 전식, 일본풍 대나무 정원, 한국식 문을 함께 배치했습니다. 비싼 물건을 과시하지만 미감은 부족한 인물의 성격을 공간의 불균형과 과도한 장식으로 표현했습니다."
-        }
-      ],
+      "sections": [],
       "contentSource": {
-        "file": "입시지원_포트폴리오.pdf",
+        "file": "포폴0124/Portfolio250804.pdf",
+        "sha256": "bd3221b3a9b30723568a0ff52fba978dcb42cc89d8c07b48c19bda2fccd83ed7",
         "pages": [
           3,
           4,
           5,
           6,
-          7
+          7,
+          8,
+          9,
+          10,
+          11
         ]
       },
       "coverDisplayFile": "web/original-01-78746c16ed.webp",
+      "layout": {
+        "mode": "original-pages",
+        "source": {
+          "file": "포폴0124/Portfolio250804.pdf",
+          "sha256": "bd3221b3a9b30723568a0ff52fba978dcb42cc89d8c07b48c19bda2fccd83ed7",
+          "pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        "render": {
+          "format": "PNG",
+          "width": 3200,
+          "preservePageLayout": true,
+          "crop": false
+        },
+        "pages": [
+          {
+            "sourcePage": 3,
+            "path": "authored-layout/page-03.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "56efc338abac433d21a04cfce3d173acf0131df7a3df045e9254c36045bdf66b",
+            "text": "살아있는 이중생  각하\n작 오영진  \n2022-1 제작공연 ㅣ 중앙대학교 공연예술원 SPACE 1959 ㅣ 연출  황윤진\n지도 교수  이진석\n공동 무대 디자인   전아영  우채원\n친일파 이중생은 광복 후에도 미국에 들러붙어 사기를 치며 더 많은 재산을 모은다. \n어느 날 이중생의 집에는 반민특위가 들이닥치고 그 동안의 수많은 죄로 인해 입건된\n다. 하지만 최변호사의 도움으로 가석방되고, 재산 몰수 위기에 맞닥뜨리자 이를 지키\n기 위해 위장 자살극을 꾸며 거짓 초상을 치른다. 그러나 계획을 그가 원하는 대로 흘\n러가지 않았고, 모든 재산을 잃게 된 이중생은 결국 자살을 택한다. \n1949년 해방 직후의 서울 종로\n3"
+          },
+          {
+            "sourcePage": 4,
+            "path": "authored-layout/page-04.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "ea7c7e20788bd40e57cf677b9726c7183d4aceafe5a5da26a4c328f75db0419e",
+            "text": "디자인 컨셉\n 광복 직후 시대적 배경의 고증을 통해 ‘한양 절충식’ 한옥을 \n재현하였다. 온돌방과 다다미방을 ‘ ㄱ ‘ 자형으로 배치하고, \n온돌방의 벽 중앙에 일본식 원형문을 끼워 넣어 이질적인 느\n낌을 만들었다. 이는 친일파인 주인공 '이중생'의 인물 특성\n을 반영하기 위해, 전통 한옥에 일본적 요소를 더해 공간의 \n이중성을 표현하고자 한 것이다. \n 이중생은 탐욕스럽고 교양이 부족한 인물로, 재산은 많지만 \n안목이 부족하다는 점을 그의 집 내부 공간(무대) 디테일을 \n통해 관객에게 보여주고자 했다. 집의 분위기는 호화롭지만 \n격조가 없도록, 서양식 전식과 일본풍 대나무 정원, 한국적인 \n문 등과 같이 여러 양식적 구조를 뒤섞었다. 이는 비싼 물건\n을 사들여 과시하려는 의도는 뚜렷하지만, 미감의 부족으로 \n인해 정돈되지 않은 느낌을 강조하기 위한 것이다.  \n4"
+          },
+          {
+            "sourcePage": 5,
+            "path": "authored-layout/page-05.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "3916cad5ac34ee264fcb22bb5437a6d4476d0207269c5af06fadcb3895ab78fc",
+            "text": "CONCEPT\nSketchup Pro _ 스케치업  3D 모델링 \n밤 장면\nA. 절충식 가옥 구조\n1) 전통 한옥 + 왜색적 소재\n낮 장면\n - 전통 한옥 (창 / 툇마루 / 사랑채 구조) \n - 왜색적 소재 (원형문 / 다다미방 / 대나무 정원)\n2) 색감 차이\n- 한옥 내부의 목재는 전체적으로 엠버톤\n- 원형문 창살은 짙은 고동색으로  마감\nB. 호화롭지만 격조 없는 분위기\n1) 혼란스러운 배치(대도구 / 전식)\n- 통일성과 미감의 부족으로 인해 \n배치가 조화롭지 못함\n2) 불균형과 과도함  \n- 한국식 창과 일식 문양 창이 섞여 \n내부에서도 색과 스타일이 충돌\n5"
+          },
+          {
+            "sourcePage": 6,
+            "path": "authored-layout/page-06.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "04798ec4555db66c407f3f11e61e49c2b2e7f92514acff112ea04043b5c67435",
+            "text": "온돌방\n마당\n후원\n(원형문)\n외부\n(대문)\n안채\n(일각문)\n다다미방\n극 중 이야기가 전개되는 주 공간:  '사랑채 - 툇마루 - 마당'C. 등퇴장로\n2) 한국식 대문 \n[하수] 집 외부의 공간을 이어주는 통로\n3) 한국식 일각문\n[상수] 마당에서 안채로 통하는 통로\n1) 원형문 \n[무대 중앙] 온돌방과 후원(대나무 정원)을 이어주는 통로\n Ground PlanTop View (Render)\n[세트 사진]\n6"
+          },
+          {
+            "sourcePage": 7,
+            "path": "authored-layout/page-07.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "35bfa99cc997a24c0a30e52c298825f6ca33169e9aa842405e39d6ac84269964",
+            "text": "DWG AutoCAD 2022도면 \n01 Ground Plan 02 Plan 1\n05 Section B 06 Wall Plan / Elevation C\n7"
+          },
+          {
+            "sourcePage": 8,
+            "path": "authored-layout/page-08.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "ab0efa46d1d0f8b507e62c3371ab236226c40974574cb94bebb3c73dfd3d129e",
+            "text": "“이중생씨의 안사랑채. 온돌방에 연달아 일본식 다다미방이 조금 보인다.  8.15 이전에 흔히 우리들이 볼 수 있던 소위 \n화선절충식 주택이다. 후경은 우리 주인공이 늘상 사랑하여 마지않는 정원이다. 석등롱뿐 아니라 어렴풋이 정자까지 바\n라보이니 가히 호화로운 구조를 짐작할 수 있다.”\n“방안에 놓인 화초분 등 어느 것 하나 값진 물건 아닌 것이 없으나 \n왜 그런지 공연히 번거롭고 몰취미해서 풍류의 맛이란 도시 찾아볼 수 없다.”\n8"
+          },
+          {
+            "sourcePage": 9,
+            "path": "authored-layout/page-09.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "7388b168cb7dc6088d36f64305c57d9d8c6f916ed22abb61f9d191fc8184b50e",
+            "text": "9"
+          },
+          {
+            "sourcePage": 10,
+            "path": "authored-layout/page-10.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "fb9ab87b011ce890c96cd888010705918c14d015d4a6c0d467a4a93080f06aff",
+            "text": "10"
+          },
+          {
+            "sourcePage": 11,
+            "path": "authored-layout/page-11.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "16fde58cb70aa84ef8693620a66b800ca9a79c30bd6725281dd74e0976c93a1c",
+            "text": "11"
+          }
+        ]
+      },
       "coverUrl": "./projects/stage-living-double-life/assets/high-res/original-01-78746c16ed.png",
       "coverDisplayUrl": "./projects/stage-living-double-life/assets/web/original-01-78746c16ed.webp",
       "thumbnail": "./asset/thumbnails/stage-living-double-life.jpg?v=bd81daafe84b"
@@ -710,13 +895,14 @@ window.PORTFOLIO_DATA = {
       ],
       "role": "2021-1 중앙대학교 연극학과 창작워크숍 · 무대 디자인",
       "detail": "2021.08.20 - 2021.08.22",
+      "layoutFile": "layout.json",
       "displayTitle": "당신을 기다리고 있어",
       "subtitle": "무대 디자인",
       "year": "2021",
       "context": "중앙대학교 연극학과 공연",
       "roleLabel": "무대·영상 디자인",
       "credits": "무대·영상 디자인 전아영 / 연출 김예진",
-      "summary": "소극장의 물리적 경계를 흐리고, 바다와 편지의 이미지를 통해 기다림의 감정을 담은 우주를 설계했습니다.",
+      "summary": "무대 디자인",
       "tools": [
         "Rhino",
         "Blender",
@@ -724,26 +910,101 @@ window.PORTFOLIO_DATA = {
         "Midjourney"
       ],
       "coverFile": "high-res/original-01-87a2c55ede.jpg",
-      "sections": [
-        {
-          "title": "공간의 경계를 흐리기",
-          "text": "작은 규모의 극장에서 광활한 우주를 구현하기 위해 곡면 벽체로 벽과 바닥의 경계를 지웠습니다. 오브제와 가림막, 양쪽으로 나눈 객석 배치를 활용해 관객이 공간의 크기와 형태를 한눈에 파악하기 어렵게 구성했습니다."
-        },
-        {
-          "title": "차가운 우주에 인간적인 정서를",
-          "text": "우주를 바다처럼 해석해 블루 톤과 물결의 형태, 반사 효과를 사용했습니다. 기술적인 우주선 대신 돛단배를 배치하고 조명과 프로젝션 맵핑으로 시공간을 바꾸며, 사랑과 고독이 공존하는 분위기를 만들고자 했습니다."
-        }
-      ],
+      "sections": [],
       "contentSource": {
-        "file": "입시지원_포트폴리오.pdf",
+        "file": "포폴0124/Portfolio250804.pdf",
+        "sha256": "bd3221b3a9b30723568a0ff52fba978dcb42cc89d8c07b48c19bda2fccd83ed7",
         "pages": [
           12,
           13,
+          14,
+          15,
+          16,
           17,
           18
         ]
       },
       "coverDisplayFile": "web/original-01-87a2c55ede.webp",
+      "layout": {
+        "mode": "original-pages",
+        "source": {
+          "file": "포폴0124/Portfolio250804.pdf",
+          "sha256": "bd3221b3a9b30723568a0ff52fba978dcb42cc89d8c07b48c19bda2fccd83ed7",
+          "pages": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        "render": {
+          "format": "PNG",
+          "width": 3200,
+          "preservePageLayout": true,
+          "crop": false
+        },
+        "pages": [
+          {
+            "sourcePage": 12,
+            "path": "authored-layout/page-12.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "4673225c0007ec243d5e72ba5c104f59a323819d7696b07e2cbef3bed540416c",
+            "text": "당신을 기다리고 있어\n김보영 작 \n2021-1 추계 공연 ㅣ 중앙대학교 연극실험실 1층 극장 ㅣ 연출  김예진\n지도 교수  김철승\n무대/영상 디자인   전아영  \n광속으로 성간(星間) 여행이 가능해진 시대, ‘나’와 ‘당신’은 결혼식을 앞두고 있다. 그러나 ‘당신’은 가\n족을 배웅하기 위해 알파 센타우리로 떠나야 하고, 지구 시간으로 9년이 걸리는 여정에 나선다. ‘나’는 \n이 긴 시간을 단축하기 위해 ‘기다림의 배’를 선택한다. \n그러나 예상치 못한 사건들로 두 사람의 만남은 계속 미뤄지고, ‘나’는 시간선이 어긋나지 않도록 돛단\n배를 타고 성계를 오가며 ‘당신’을 기다린다. 그러나 끝내 만나지 못한 채 수많은 시간이 흐르고, 삶을 \n끝내고자 결혼식을 약속했던 교회(지구)로 향한 '나'는, 그곳에서 ‘당신’의 흔적을 발견한다. \n12"
+          },
+          {
+            "sourcePage": 13,
+            "path": "authored-layout/page-13.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "78167b35a0df1e8d1a428cb046d2ee0d5700674cf10701224e8f7365243e2fdb",
+            "text": "CONCEPT \n#광활한 우주  #무한한 공간 \n1) 곡면 벽체\n - 무대 세트의 벽체를 곡면으로 휘어, \n벽과 바닥의 경계성을 지움\n2) 오브제/가림막 사용\n - 극장을 비우는 대신, 오브제와 가림막으로 \n공간을 채워서 공간의 경계를 숨김\n디자인 과정에서 가장 큰 이슈는, '소극장'이라는 작은 규모의 제한된 공간에서 광활한 우주를 구현해야 하는 것이었다. 원근감을 \n활용하거나 여백을 만들거나, 관객과의 거리감을 주는 등의 방식을 활용할 수 없었다. 그래서 선택한 방식은 관객이 극장의 공간 \n규모나 형태를 한눈에 파악할 수 없도록 설계하는 것이었다. 이외에도 객석 배치, 유광 처리 등 여러 요소를 최대로 활용하였다. \n3) 객석 배치\n - 객석을 양쪽으로 배치하여 무대가 \n가로질러 열린 듯한 느낌을 연출\n전체적인 공간 컨셉\n - 배우가 정면이 아닌 4면을 자유롭게 \n응시하며 방황하는 형식의 동선\n#로맨틱  #아날로그 \n2) 돛단배\n - 기술적 우주선 대신 감성적인 돛단배 \n디자인을 채택해 인간적인 정서를 강조\n작품은 남자 주인공의 15통의 편지로 서사가 전개되는 SF 로맨스 소설이다. 극 중 주된 공간인 ‘우주’는 연인을 기다리며 외로\n움과 절망을 느끼는 장소이지만, 동시에 사랑하는 연인을 향한 애틋한 감정이 깃든 공간이기도 하다. 이러한 이중적인 감정을 \n담기 위해, 우주를 마냥 차갑고 어두운 분위기가 아닌 감성적이고 로맨틱한 느낌을 더하여 표현하고자 했다. 바다의 이미지를 \n활용하여 우주라는 공간이 단순한 고독의 상징이 아니라, 사랑을 품고 있는 애틋한 공간으로 느껴질 수 있도록 했다.\n1-1) 우주 = 바다\n - '우주 = 바다'처럼 표현, \n블루톤 색감을 기본으로 설정\n- 벽체 작화에 물결 모양을 반영하고,\n유광(애폭시) 처리를 통해 반사 효과 구현\n#추상\n2) 조명, 영상 활용\n - 단순한 형태의 무대 디자인을 보완하기 위해\n조명과 프로젝션 맵핑을 활용\n작품의 무대는 지구와 우주, 여러 시간대가 얽혀 있는 공간이다. 하나의 고정된 세트로 다양한 시공간을 표현하기 위해 추상적\n인 디자인 양식을 사용했다. \n1) 구체적인 디테일 배제\n- 공간의 장소성을 명확히 하기보다는, \n상징적/추상적 형태로 관객의 상상력 자극\n1-2) 우주 = 바다\n13"
+          },
+          {
+            "sourcePage": 14,
+            "path": "authored-layout/page-14.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "a98c31b3d4af20b9997a4617c635a0fe24c8c9260a2d8da6e02930fa740a36ea",
+            "text": "1번째 편지 \n Scene 1\n4번째 편지\nScene 5\n아, 예식장에 신부로 서 있는 당신 모습은 얼마나 아름다울까? 당신이랑 결혼한다고 생각을 하면 자다가도 좋아서 깨. \n어떻게 2달을 기다리지 하루도 더 못 기다리겠는데...  얼른 보고싶어. 사랑해. \n음성 편지를 받았어. 다 나 때문이야. 당신 잘못은 하나도 없어. 배를 갈아탄 건 정말 잘한거야. 피난해서 다행이야. \n하지만 11년, 11년이라니... 벌써  3년이나 늦었어. 7년반이나 지났다고. 어디서부터 뭐가 잘못되었는지는 모르겠지\n만 다 잘못된거야.\n항해 1일째,  지구 시간으로 1일째 항해 1개월 25일째 ,  지구 시간으로 7년 8개월하고 25일 후\n[반대쪽 객석 시야]\n14"
+          },
+          {
+            "sourcePage": 15,
+            "path": "authored-layout/page-15.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "2aa3f76991e1d00b7ed3750521066ccfec11acd116ee81a8471ca94361956b73",
+            "text": "6번째 편지 \n Scene 11\n8번째 편지\nScene 14\n선장과 승무원들은 지구를 떠나 다른 별로 간다고 했어. 나는 5년 뒤의 이 항구에 와야 한다고 했어. \n신부가 오고 있다고. 내가 불쌍해보였나봐, 배 안에서 작은 배 하나를 꺼내주더라. 5년 뒤로 가려면 \n태양계에서 2년 더 떠돌아야 한대. 목성 궤도를 타라고 하더라\n당신이 오기로 한 날에 맞춰 항구로 갔어. 아무도 안오더라. 4개월하고 3일을 기다렸어. 당신은 오지 않았어. 그런데 \n왠지 슬프지 않더라. 기쁘지도 않았고, 그저 담담했어. 그 뒤에 난 떠났어. 사실 떠날 이유는 없었어. 더 이상 미래로 갈 \n이유는 없었으니까. 하지만 여기가 아니라면 어디든 좋다고 생각했어. 이 모든 것을 떠올리지 않아도 되는 곳으로. \n당신을 포함해서. \n항해 4개월째,  지구 시간으로 13년 9개월 후 항해 3년 2개월째 ,  지구 시간으로 19년 2개월하고 3일 후\n[반대쪽 객석 시야]\n15"
+          },
+          {
+            "sourcePage": 16,
+            "path": "authored-layout/page-16.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "b72b38e7462c352bea82850a3ef8012adc2eac51da7de2907c10c6be3da227d9",
+            "text": "12번째 편지 \n Scene 1\n15번째 편지\nScene 4\n하루에도 수천번씩 당신 모습을 그려. 그러니까 이제는 내가 당신인지, 당신이 나인지도 모르겠어. \n여전히 당신을 기다리고 있어. 당신이 이미 이 세상에 없다해도. 오래전에 어느 별에 정착해서 좋은 사람 만나 아들 딸 열 \n쯤 낳고, 가족들의 축복 속에서 생을 마감했다 하더라도.  어쩌면 아득한 성계 너머에서 이제 막 배에서 내리며, 어린 날의 \n가벼운 추억거리처럼 ‘아, 그런 남자가 있었죠. 오래전에 다른 시간대에서 죽었겠지만,’ 이라며 나를 회상하고 있다고 해도. \n벽에는 색바랜 종이가 겹겹히 붙어있었어. 원래는 색지였을 것 같지만 모두 회색이었어. 그러다 노란색 종이 하나가 눈에 \n띄었어. 떼어내려는데 잘 안 떨어지더라. 접착제가 남아있다는 뜻이었어. 작년이었을까? 한달전? 어제? 방금? 바람이 불\n어와 삭고 낡은 종이가 우수수 떨어졌어. 햇빛이 내려앉아 글씨를 황금빛으로 비추었어. \n“기다리고 있어. 내가 여기 있어” \n항해 9년째,  지구 시간으로 (대충) 170년 후 항해 (아마도) 14년째 ,  지구 시간 모름\n16"
+          },
+          {
+            "sourcePage": 17,
+            "path": "authored-layout/page-17.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "bc40eeaa37afbb13ca3f9363c7b42b2d38e2b555a8aa44e55aaf672225adc2f7",
+            "text": "DESIGN PROCESS 영상 프로젝션 맵핑 Blender, Photoshop, Midjourney\n15번째  편지  (마지막 장면)\n 1 \n 2\n4번째  편지\n8번째  편지\n12번째  편지\n17"
+          },
+          {
+            "sourcePage": 18,
+            "path": "authored-layout/page-18.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "450b1fc41e215f9a9d10c7656546e85a6ff73af5808dd124273e7aec100af2e8",
+            "text": "DWG Rhino 8도면 \n18"
+          }
+        ]
+      },
       "coverUrl": "./projects/stage-waiting-for-you/assets/high-res/original-01-87a2c55ede.jpg",
       "coverDisplayUrl": "./projects/stage-waiting-for-you/assets/web/original-01-87a2c55ede.webp",
       "thumbnail": "./asset/thumbnails/stage-waiting-for-you.jpg?v=283c105ed32a"
@@ -950,30 +1211,23 @@ window.PORTFOLIO_DATA = {
       ],
       "role": "2022-2 아포칼립스 프로젝트 · 프로덕션 디자인",
       "detail": "2022-2",
+      "layoutFile": "layout.json",
       "displayTitle": "정상영업 합니다",
       "subtitle": "프로덕션 디자인",
       "year": "2022",
       "context": "공연영상디자인 · 아포칼립스 프로젝트",
       "roleLabel": "프로덕션 디자인",
       "credits": "프로덕션 디자인 전아영",
-      "summary": "좀비 팬데믹 이전과 이후, 두 시대의 상가를 통해 비정상적인 상황에 적응한 사람들의 일상을 그렸습니다.",
+      "summary": "프로덕션 디자인",
       "tools": [
         "SketchUp",
         "Enscape"
       ],
       "coverFile": "high-res/original-01-dcc9e97372.jpg",
-      "sections": [
-        {
-          "title": "같은 장소의 두 시간",
-          "text": "2020년과 2022년의 상가를 함께 설계했습니다. 평범한 상가에서 끊임없이 벌어지던 갈등과 소란, 팬데믹을 겪은 뒤에도 이어지는 생활의 흔적을 같은 건물 안에 담았습니다."
-        },
-        {
-          "title": "사라지지 않은 일상의 흔적",
-          "text": "좀비 팬데믹의 흔적과 기존의 상점, 간판, 벽보가 뒤섞이도록 구성했습니다. 옥상은 살아남은 입주민들의 텃밭으로 바꾸어, 비일상에 적응하며 다시 생활을 이어가는 모습을 표현했습니다."
-        }
-      ],
+      "sections": [],
       "contentSource": {
-        "file": "입시지원_포트폴리오.pdf",
+        "file": "포폴0124/Portfolio250804.pdf",
+        "sha256": "bd3221b3a9b30723568a0ff52fba978dcb42cc89d8c07b48c19bda2fccd83ed7",
         "pages": [
           28,
           29,
@@ -985,6 +1239,86 @@ window.PORTFOLIO_DATA = {
         ]
       },
       "coverDisplayFile": "web/original-01-dcc9e97372.webp",
+      "layout": {
+        "mode": "original-pages",
+        "source": {
+          "file": "포폴0124/Portfolio250804.pdf",
+          "sha256": "bd3221b3a9b30723568a0ff52fba978dcb42cc89d8c07b48c19bda2fccd83ed7",
+          "pages": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ]
+        },
+        "render": {
+          "format": "PNG",
+          "width": 3200,
+          "preservePageLayout": true,
+          "crop": false
+        },
+        "pages": [
+          {
+            "sourcePage": 28,
+            "path": "authored-layout/page-28.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "7e88237193e17c80b27389332456f410a74e4994664ca9773b318988f7476ead",
+            "text": "정상영업 합니다 \nApocalypse Project\n2020년과 2022년, 두 시대의 상가 모습을 담은 이야기.\n2020년 전세계를 공포에 떨게 했던 좀비 펜데믹 사태. 2년이 지난 현재, 사람들은  \n이 펜데믹 상황에 적응하기 시작했다.  더 이상 좀비의 존재는 엄청난 공포의 대상이 \n아니다.  그저 거리를 돌아다니는 유해 생물일 뿐이다. 좀비에 대한 공포가 무뎌지기\n에 2년의 시간은 충분했고, 사람들은 이전의 삶을 다시 살아가기 시작했다. 2022-2  공연영상디자인(2) ㅣ아포칼립스 프로젝트지도 교수  이하준\n프로덕션 디자인   전아영\n28"
+          },
+          {
+            "sourcePage": 29,
+            "path": "authored-layout/page-29.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "4632c62b1291cf6051bce44a752ffe807ab3e763a55e829139483730a4e2dfd4",
+            "text": "CONCEPT 1\n#평화와는 거리가 먼, 하루도 조용할 날이 없는 상가\n분당의 작은 상가 건물, 매일같이 다투고 기싸움을 하는 입주민들. 하루도 그냥 지나가는 법이 없는, 평화와는 거리가 먼 상가이다.\n평범한 작은 상가 건물이지만, 그 속에서는 끊임없이 갈등과 소란이 벌어지며, 잔잔한 날은 찾아볼 수 없는 시끌벅적한 모습이 보인다\n2020년 상가\n상가 입주민 벽보 (Detail)\nSketchup, Enscape상가 전체, 옥상\n29"
+          },
+          {
+            "sourcePage": 30,
+            "path": "authored-layout/page-30.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "b83393f62b4a728ec1d33828757720d0741e2ba4a65665a90528c0c8fc1d36c6",
+            "text": "2020년 상가 \n낮 / 밤 장면\nSketchup, Enscape\n30"
+          },
+          {
+            "sourcePage": 31,
+            "path": "authored-layout/page-31.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "1cfdfe5bcd59aeda3d982ad12a72b7fdfd5bbf5e103b3814a67f9b2ae728be48",
+            "text": "2020년 상가 \n 골목/구둣방\nSketchup, Enscape\n31"
+          },
+          {
+            "sourcePage": 32,
+            "path": "authored-layout/page-32.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "b3e538599279bc9951b8d99fd0aa362bfe3a3f3126b7b9a8c177b691d45b700b",
+            "text": "2020년 상가 \n옥상\nSketchup, Enscape\n32"
+          },
+          {
+            "sourcePage": 33,
+            "path": "authored-layout/page-33.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "9c2005030d459083d60245fbff63102b0750d9d6ffbbe98ad89851d1fef655d4",
+            "text": "CONCEPT 2\n#평범했던 과거와 비정상적인 현재가 뒤섞인 상가\n2020년 전세계를 공포에 떨게 했던 좀비 펜데믹 사태. 2년이 지난 현재, 사람들은  이 펜데믹 상황에 적응하기 시작했다.  \n더 이상 좀비의 존재는 엄청난 공포의 대상이 아니다.  그저 거리를 돌아다니는 유해 생물일 뿐이다. 좀비에 대한 공포가 \n무뎌지기에 2년의 시간은 충분했고, 사람들은 이전의 삶을 다시 살아가기 시작했다. \n2022년 상가\n좀비 펜데믹 흔적 (Detail)\nSketchup, Enscape상가 전체, 옥상 정원\n33"
+          },
+          {
+            "sourcePage": 34,
+            "path": "authored-layout/page-34.png",
+            "width": 3200,
+            "height": 2267,
+            "sha256": "df134f55774358a2a99eb0506cfdaf014f328e72e2eca2adac7cc308b8027f77",
+            "text": "2022년 상가 \n옥상 (생존한 입주민들의 텃밭으로 사용)\nSketchup, Enscape\n34"
+          }
+        ]
+      },
       "coverUrl": "./projects/production-normal-business/assets/high-res/original-01-dcc9e97372.jpg",
       "coverDisplayUrl": "./projects/production-normal-business/assets/web/original-01-dcc9e97372.webp",
       "thumbnail": "./asset/thumbnails/production-normal-business.jpg?v=fc6c205be2f3"

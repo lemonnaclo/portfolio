@@ -172,3 +172,17 @@
 .project-video-source{font-size:11px;color:var(--muted);padding-top:13px}
 .project-video-source a{border-bottom:1px solid var(--line)}
 @media(max-width:700px){.is-embedded .container{width:calc(100% - 32px)}.is-embedded .profile-page .profile-section{padding-top:28px;padding-bottom:35px}.is-embedded .profile-layout{gap:28px}.is-embedded .profile-layout h1{font-size:40px}.is-embedded .profile-lead{font-size:17px}.is-embedded .profile-timeline{margin-top:37px}.is-embedded .project-main{padding-top:27px}.is-embedded .project-title{font-size:32px}.is-embedded .project-hero{margin-top:25px}.is-embedded .project-meta{font-size:11px}.is-embedded .profile-tools{margin-top:30px}}
+
+/* The user's authored PDF pages: preserve all text, drawings and image positions. */
+.authored-pages{display:grid;gap:18px}
+.authored-page{margin:0;min-width:0}
+.authored-page img{display:block;width:100%;height:auto;object-fit:contain}
+.has-authored-layout .project-back{margin-bottom:26px}
+.has-authored-layout.is-embedded .project-main{padding-top:16px}
+.lightbox-zoom{margin-left:auto;background:transparent;border:1px solid var(--line);padding:6px 12px;font-size:11px}
+.lightbox-stage{grid-template-rows:minmax(0,1fr);min-height:0}
+.lightbox-stage img{min-height:0;max-height:calc(100svh - 132px)}
+.lightbox.is-zoomed .lightbox-stage{display:block;overflow:auto;overscroll-behavior:contain;touch-action:pan-x pan-y}
+.lightbox.is-zoomed .lightbox-stage img{width:auto;max-width:none;max-height:none;margin:0}
+.lightbox.is-zoomed .lightbox-direction{display:none}
+@media(max-width:700px){.authored-pages{gap:10px}.has-authored-layout .container{width:calc(100% - 24px)}.has-authored-layout.is-embedded .project-main{padding-top:10px}.lightbox-zoom{font-size:10px;padding:5px 9px}}

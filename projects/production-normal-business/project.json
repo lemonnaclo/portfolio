@@ -160,5 +160,6 @@
     }
   ],
   "role": "2022-2 아포칼립스 프로젝트 · 프로덕션 디자인",
-  "detail": "2022-2"
+  "detail": "2022-2",
+  "layoutFile": "layout.json"
 }

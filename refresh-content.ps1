@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $portfolioRoot = $PSScriptRoot
 function Read-PortfolioJson([string]$filePath) {
   return ([IO.File]::ReadAllText($filePath) | ConvertFrom-Json)
@@ -35,6 +35,10 @@ $compiledProjects = foreach ($entry in $orderedIndex) {
   $compiled['displayTitle'] = $original.title
   Merge-PortfolioProperties $compiled $overrideData.PSObject.Properties[$entry.id].Value
   Merge-PortfolioProperties $compiled $caseData.PSObject.Properties[$entry.id].Value
+  # Authored page composition is edited in each project's layout.json.
+  if ($original.layoutFile) {
+    $compiled['layout'] = Read-PortfolioJson (Join-Path (Split-Path $projectPath) $original.layoutFile)
+  }
   $imageRecords = @($original.media | Where-Object { $_.type -eq 'image' -and $_.path })
   $coverFile = $compiled['coverFile']
   if (-not $coverFile -and $imageRecords.Count -gt 0) {

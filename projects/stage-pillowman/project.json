@@ -170,5 +170,6 @@
     }
   ],
   "role": "중앙대학교 공간연출과 졸업 작품 · 무대 디자인",
-  "detail": "2024-1"
+  "detail": "2024-1",
+  "layoutFile": "layout.json"
 }

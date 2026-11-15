@@ -1,0 +1,80 @@
+{
+  "mode": "original-pages",
+  "source": {
+    "file": "포폴0124/Portfolio250804.pdf",
+    "sha256": "bd3221b3a9b30723568a0ff52fba978dcb42cc89d8c07b48c19bda2fccd83ed7",
+    "pages": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  "render": {
+    "format": "PNG",
+    "width": 3200,
+    "preservePageLayout": true,
+    "crop": false
+  },
+  "pages": [
+    {
+      "sourcePage": 28,
+      "path": "authored-layout/page-28.png",
+      "width": 3200,
+      "height": 2267,
+      "sha256": "7e88237193e17c80b27389332456f410a74e4994664ca9773b318988f7476ead",
+      "text": "정상영업 합니다 \nApocalypse Project\n2020년과 2022년, 두 시대의 상가 모습을 담은 이야기.\n2020년 전세계를 공포에 떨게 했던 좀비 펜데믹 사태. 2년이 지난 현재, 사람들은  \n이 펜데믹 상황에 적응하기 시작했다.  더 이상 좀비의 존재는 엄청난 공포의 대상이 \n아니다.  그저 거리를 돌아다니는 유해 생물일 뿐이다. 좀비에 대한 공포가 무뎌지기\n에 2년의 시간은 충분했고, 사람들은 이전의 삶을 다시 살아가기 시작했다. 2022-2  공연영상디자인(2) ㅣ아포칼립스 프로젝트지도 교수  이하준\n프로덕션 디자인   전아영\n28"
+    },
+    {
+      "sourcePage": 29,
+      "path": "authored-layout/page-29.png",
+      "width": 3200,
+      "height": 2267,
+      "sha256": "4632c62b1291cf6051bce44a752ffe807ab3e763a55e829139483730a4e2dfd4",
+      "text": "CONCEPT 1\n#평화와는 거리가 먼, 하루도 조용할 날이 없는 상가\n분당의 작은 상가 건물, 매일같이 다투고 기싸움을 하는 입주민들. 하루도 그냥 지나가는 법이 없는, 평화와는 거리가 먼 상가이다.\n평범한 작은 상가 건물이지만, 그 속에서는 끊임없이 갈등과 소란이 벌어지며, 잔잔한 날은 찾아볼 수 없는 시끌벅적한 모습이 보인다\n2020년 상가\n상가 입주민 벽보 (Detail)\nSketchup, Enscape상가 전체, 옥상\n29"
+    },
+    {
+      "sourcePage": 30,
+      "path": "authored-layout/page-30.png",
+      "width": 3200,
+      "height": 2267,
+      "sha256": "b83393f62b4a728ec1d33828757720d0741e2ba4a65665a90528c0c8fc1d36c6",
+      "text": "2020년 상가 \n낮 / 밤 장면\nSketchup, Enscape\n30"
+    },
+    {
+      "sourcePage": 31,
+      "path": "authored-layout/page-31.png",
+      "width": 3200,
+      "height": 2267,
+      "sha256": "1cfdfe5bcd59aeda3d982ad12a72b7fdfd5bbf5e103b3814a67f9b2ae728be48",
+      "text": "2020년 상가 \n 골목/구둣방\nSketchup, Enscape\n31"
+    },
+    {
+      "sourcePage": 32,
+      "path": "authored-layout/page-32.png",
+      "width": 3200,
+      "height": 2267,
+      "sha256": "b3e538599279bc9951b8d99fd0aa362bfe3a3f3126b7b9a8c177b691d45b700b",
+      "text": "2020년 상가 \n옥상\nSketchup, Enscape\n32"
+    },
+    {
+      "sourcePage": 33,
+      "path": "authored-layout/page-33.png",
+      "width": 3200,
+      "height": 2267,
+      "sha256": "9c2005030d459083d60245fbff63102b0750d9d6ffbbe98ad89851d1fef655d4",
+      "text": "CONCEPT 2\n#평범했던 과거와 비정상적인 현재가 뒤섞인 상가\n2020년 전세계를 공포에 떨게 했던 좀비 펜데믹 사태. 2년이 지난 현재, 사람들은  이 펜데믹 상황에 적응하기 시작했다.  \n더 이상 좀비의 존재는 엄청난 공포의 대상이 아니다.  그저 거리를 돌아다니는 유해 생물일 뿐이다. 좀비에 대한 공포가 \n무뎌지기에 2년의 시간은 충분했고, 사람들은 이전의 삶을 다시 살아가기 시작했다. \n2022년 상가\n좀비 펜데믹 흔적 (Detail)\nSketchup, Enscape상가 전체, 옥상 정원\n33"
+    },
+    {
+      "sourcePage": 34,
+      "path": "authored-layout/page-34.png",
+      "width": 3200,
+      "height": 2267,
+      "sha256": "df134f55774358a2a99eb0506cfdaf014f328e72e2eca2adac7cc308b8027f77",
+      "text": "2022년 상가 \n옥상 (생존한 입주민들의 텃밭으로 사용)\nSketchup, Enscape\n34"
+    }
+  ]
+}
