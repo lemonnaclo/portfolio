@@ -1,7 +1,1 @@
-# UI 작업 폴더
-
-최신 파스텔 콜라주 UI는 **desktop-collage/**에 있습니다.
-
-저장소를 전체 내려받은 뒤 `desktop-collage/index.html`을 여세요. 로그인 → 부팅 → 무대 작품 사진 창 3개의 흐름을 확인할 수 있습니다. `desktop-collage/ui/preview.html`에서는 교체용 PNG·SVG를 확인합니다.
-
-이전 검토 폴더(review-*)는 로컬에 보관하며 GitHub에는 최신 작업용 폴더만 포함합니다. 루트의 `index.html`은 기존 전체 사이트이고, 이 폴더의 UI는 후속 통합을 위한 작업 시안입니다.
+최신 파스텔 데스크톱의 스타일·PNG/SVG·창 동작은 desktop-collage/에 있습니다. 홈 HTML은 저장소 루트 index.html이며 desktop-collage/index.html을 열면 홈으로 이동합니다. 전체 작업·프로필·연락처 페이지가 연결되어 있습니다.

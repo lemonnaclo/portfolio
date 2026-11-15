@@ -8,13 +8,13 @@
 
 | 경로 | 용도 |
 |---|---|
-| design/desktop-collage/index.html | 최신 파스텔 콜라주 UI 작업 시안 |
+| design/desktop-collage/index.html | 공개 홈으로 연결되는 UI 시작 파일 |
 | design/desktop-collage/ui/preview.html | UI 교체용 PNG·SVG 목록 |
-| index.html | 현재 전체 사이트의 데스크톱 홈 |
+| index.html | 현재 공개 사이트의 파스텔 데스크톱 홈 |
 | works.html, profile.html, contact.html | 전체 작업·프로필·연락처 |
 | project.html | 작업 상세 이미지·영상 |
 
-저장소 전체를 내려받고 압축을 해제한 뒤 해당 HTML을 더블클릭하세요. 별도 패키지 설치나 빌드는 필요하지 않습니다. 최신 UI 시안의 독립 사진 창 3개와 로그인·부팅 흐름은 design/desktop-collage/에서 수정합니다. 전체 프로필·상세 페이지와 새 UI의 통합은 후속 작업으로 남아 있습니다.
+저장소 전체를 내려받고 압축을 해제한 뒤 해당 HTML을 더블클릭하세요. 별도 패키지 설치나 빌드는 필요하지 않습니다. 독립 사진 창 3개와 로그인·부팅·작업 분류·검색의 스타일과 동작은 design/desktop-collage/에서 수정합니다. 실제 프로젝트 상세·프로필·연락처가 연결되어 있습니다. 홈 HTML 구조는 루트 index.html에서 수정합니다.
 
 ## UI 디자인 파일
 
@@ -40,4 +40,4 @@ Windows에서 JSON 수정 후 update-content.cmd를 실행합니다. 생성되�
 
 Stage Design → Production Design → 3D → VMD 순서이며, 주 작업은 필로우맨·살아있는 이중생 각하·당신을 기다리고 있어의 세 무대 디자인 작품입니다. 기존 21개 프로젝트를 보존했습니다. 확인된 고해상도 원본은 각 프로젝트 assets/high-res/, 웹 표시용은 assets/web/에 있습니다. CAVE RAIDER는 제공된 1080p MP4로 재생합니다. 원본 사이트의 페이지·이미지·설정은 수정하지 않았습니다.
 
-이 저장소는 다른 PC에서도 이어서 작업하기 위한 소스입니다. GitHub Pages 배포 설정은 아직 하지 않았습니다.
+이 저장소는 다른 PC에서도 이어서 작업하기 위한 소스입니다. GitHub Pages 기본 주소는 https://lemonnaclo.github.io/portfolio/ 입니다. main 브랜치의 루트를 게시 대상으로 사용합니다.

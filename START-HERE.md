@@ -36,6 +36,9 @@ git push
 
 ## 전체 사이트와 내용 수정
 
-현재 전체 사이트는 루트 index.html, 최신 UI 시안은 design/desktop-collage/index.html입니다. 메인 UI와 전체 콘텐츠 연결을 위한 소스가 함께 들어 있습니다. 자기소개·경력·도구는 data/profile.json, 프로젝트 제목·썸네일은 data/project-overrides.json에서 수정합니다. Windows에서 JSON 수정 후 update-content.cmd를 실행하면 표시용 데이터가 갱신됩니다.
+현재 공개 사이트 홈은 루트 index.html입니다. design/desktop-collage/index.html을 열어도 같은 홈으로 이동합니다. 홈 구조는 루트 index.html, 스타일·창 동작과 이미지 파일은 design/desktop-collage/에서 수정합니다. 자기소개·경력·도구는 data/profile.json, 프로젝트 제목·썸네일은 data/project-overrides.json에서 수정합니다. Windows에서 JSON 수정 후 update-content.cmd를 실행하면 표시용 데이터가 갱신됩니다.
 
 프로젝트 이미지·영상은 projects/, SCDream 폰트는 font/에 있습니다. Adobe 원본 사이트를 수정할 필요 없이 로컬 HTML과 GitHub 저장소로 작업할 수 있습니다.
+
+
+공개 주소: https://lemonnaclo.github.io/portfolio/
