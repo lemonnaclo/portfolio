@@ -1,0 +1,134 @@
+{
+  "id": "stage-waiting-for-you",
+  "date": null,
+  "sourceFilesStatus": "Original image files copied from the user-provided src folder; older web renditions retained on disk.",
+  "title": "무대 디자인 [당신을 기다리고 있어]",
+  "inventoryStatus": "originals-upgraded",
+  "sourceRoute": null,
+  "description": "무대 디자인 [당신을 기다리고 있어]",
+  "category": "Stage Design",
+  "media": [
+    {
+      "type": "image",
+      "path": "high-res/original-01-87a2c55ede.jpg",
+      "displayPath": "web/original-01-87a2c55ede.webp",
+      "width": 3840,
+      "height": 2160,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/DM15_2.jpg",
+      "sourceSha256": "87a2c55ede190fbaa69e6938a81028484cde1d57d077971ab8b2d61a47141f22"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-02-53f8cafbd3.jpg",
+      "displayPath": "web/original-02-53f8cafbd3.webp",
+      "width": 7680,
+      "height": 4320,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/DM1_h1.jpg",
+      "sourceSha256": "53f8cafbd394f7ce08bc38a1e9963daea5fb6245fa3c936401dca7e7c3e38e13"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-03-d894c7645e.jpg",
+      "displayPath": "web/original-03-d894c7645e.webp",
+      "width": 3840,
+      "height": 2160,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/DM4_2.jpg",
+      "sourceSha256": "d894c7645e8cdf46c79dbafcd55167ff3f936f6334da8d9ceeb65b831d220c9e"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-04-bd2261c074.jpg",
+      "displayPath": "web/original-04-bd2261c074.webp",
+      "width": 7680,
+      "height": 4320,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/DM6_JPG.jpg",
+      "sourceSha256": "bd2261c074e74d67a89862d449448e1eeb94be285d605e3ffdb583d32f59d3d1"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-05-7a72523edf.jpg",
+      "displayPath": "web/original-05-7a72523edf.webp",
+      "width": 3840,
+      "height": 2160,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/DM8_JPG.jpg",
+      "sourceSha256": "7a72523edfacfb09a6aa941f2492c21cdbf056f2260cd157facf14f45812804c"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-06-83692b4205.jpg",
+      "displayPath": "web/original-06-83692b4205.webp",
+      "width": 3840,
+      "height": 2160,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/DM12_JPG.jpg",
+      "sourceSha256": "83692b4205bde61b7e8cb2d818ee9ace89e15ce5087a7a6e8ffceee1dce9838a"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-07-12acec029f.jpg",
+      "displayPath": "web/original-07-12acec029f.webp",
+      "width": 3840,
+      "height": 2160,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/DM15_1.jpg",
+      "sourceSha256": "12acec029fced080fc1c4ea36fba365e3329f317edfd900a08baae8617fd4056"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-08-31f456768c.jpg",
+      "displayPath": "web/original-08-31f456768c.webp",
+      "width": 4960,
+      "height": 3507,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/당신기도면_1.jpg",
+      "sourceSha256": "31f456768c58395c406de9b562c04c5da11cc87e93edecd6080fb32355b84ad3"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-09-c9e38622e8.jpg",
+      "displayPath": "web/original-09-c9e38622e8.webp",
+      "width": 4961,
+      "height": 3508,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/당신기도면_2.jpg",
+      "sourceSha256": "c9e38622e8f0a102ba6a350817a1501cc803714956ebaf3f15ab6a9e9e1b3524"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-10-68c665f565.jpg",
+      "displayPath": "web/original-10-68c665f565.webp",
+      "width": 4961,
+      "height": 3508,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/당신기도면_3.jpg",
+      "sourceSha256": "68c665f565ab401c8b941e11ddf450bbacc7a6d6c5922de54a5dd5e1528b954d"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-11-65244a8dce.jpg",
+      "displayPath": "web/original-11-65244a8dce.webp",
+      "width": 4961,
+      "height": 3508,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/당신기도면_4.jpg",
+      "sourceSha256": "65244a8dcec0a3d5f1bfba7ec05ce13ebd3d4107798050f5e3551517fedf50bc"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-12-ab09ec1636.jpg",
+      "displayPath": "web/original-12-ab09ec1636.webp",
+      "width": 4961,
+      "height": 3508,
+      "source": "User-provided original",
+      "originalSource": "당신을기다리고있어/당신기도면_5.jpg",
+      "sourceSha256": "ab09ec163670bc8ae1b6ed91ed8b0f8cdf44867804eef689faaed3028340f786"
+    }
+  ],
+  "role": "2021-1 중앙대학교 연극학과 창작워크숍 · 무대 디자인",
+  "detail": "2021.08.20 - 2021.08.22"
+}

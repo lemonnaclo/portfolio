@@ -1,0 +1,23 @@
+{
+  "id": "3d-oni-mask",
+  "date": null,
+  "title": "[3d modeling] Oni Mask",
+  "description": null,
+  "category": "3D",
+  "sourceRoute": "copy-of-3d-modeling-seoul-subway-line-2",
+  "rawPageText": "[3d modeling] Oni Mask\n\nModeling 6.5h / Texture 3h / Lighting 2.5h\n\n오니 가면 · 개인 작업\nMaya, Photoshop, Substance Painter 3D, V-Ray\n\n-",
+  "media": [
+    {
+      "type": "image",
+      "path": "219d6a27-cc2f-4823-acd5-099061a51e5e_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "db3cc946-a9a6-49d3-91a3-ab381bbac7fe_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    }
+  ],
+  "inventoryStatus": "renditions-copied",
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified."
+}

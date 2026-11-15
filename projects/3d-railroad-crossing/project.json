@@ -1,0 +1,28 @@
+{
+  "id": "3d-railroad-crossing",
+  "date": null,
+  "title": "[3d modeling] Railroad Crossing Scene",
+  "description": null,
+  "category": "3D",
+  "sourceRoute": "copy-of-3d-modeling-1960-korea-elementary-school-classroom",
+  "rawPageText": "[3d modeling] Railroad Crossing Scene\n\nModeling 8h / Texture 10h / Lighting 6h\n\n기차 건널 · 개인 작업\nMaya, Photoshop, Substance Painter 3D, V-Ray, Quixel Bridge, Quixel MIXER\n\n-\n-",
+  "media": [
+    {
+      "type": "image",
+      "path": "0d2918e4-b34b-4a60-bea9-a7bc8de9e5e4_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "9144997c-2f73-4815-9157-a11e790bedb5_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "e030f1d2-a68b-4c98-960d-93bb981c1fcf_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    }
+  ],
+  "inventoryStatus": "renditions-copied",
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified."
+}

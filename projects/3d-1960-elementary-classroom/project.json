@@ -1,0 +1,38 @@
+{
+  "id": "3d-1960-elementary-classroom",
+  "date": null,
+  "title": "[3d modeling] 1960 Korea elementary school classroom",
+  "description": null,
+  "category": "3D",
+  "sourceRoute": "copy-of-3d-modeling-seoul-subway-line-2-1",
+  "rawPageText": "[3d modeling] 1960 Korea elementary school classroom\n\nModeling 15h / Texture 6h / Lighting 3h\n\n국민학교 교실 · 개인 작업\nMaya, Photoshop, Substance Painter 3D, V-Ray\n\n-\n-",
+  "media": [
+    {
+      "type": "image",
+      "path": "38644653-c3a6-4d1e-a6bb-b8f18f8fa3e7_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "70c38dc7-1cab-4fad-b614-c01a74fe8498_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "86536bb8-9b3f-4da2-899a-a2d7a1f98441_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "dc408ff5-1f0d-4edc-9c37-f5341311ab1f_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "e342f32c-892e-45fa-b229-14967091c806_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    }
+  ],
+  "inventoryStatus": "renditions-copied",
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3d-lego-scene",
+  "date": null,
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified.",
+  "title": "[3d modeling] lego scene",
+  "inventoryStatus": "renditions-copied",
+  "sourceRoute": null,
+  "description": "Maya, Photoshop, V-Ray",
+  "category": "3D",
+  "media": [
+    {
+      "type": "image",
+      "path": "lego-01.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "lego-02.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "lego-03.png",
+      "source": "Adobe Portfolio CDN rendition"
+    }
+  ],
+  "role": "레고 씬 · 개인 작업",
+  "detail": "Modeling 9h / Texture 1h / Lighting 2.5h"
+}

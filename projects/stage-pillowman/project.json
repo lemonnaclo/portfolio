@@ -1,0 +1,174 @@
+{
+  "id": "stage-pillowman",
+  "date": null,
+  "sourceFilesStatus": "Original image files copied from the user-provided src folder; older web renditions retained on disk.",
+  "title": "무대 디자인 [필로우맨]",
+  "inventoryStatus": "originals-upgraded",
+  "sourceRoute": null,
+  "description": "무대 디자인 [필로우맨]",
+  "category": "Stage Design",
+  "media": [
+    {
+      "type": "image",
+      "path": "high-res/original-01-f5dec1ba6e.jpg",
+      "displayPath": "web/original-01-f5dec1ba6e.webp",
+      "width": 2912,
+      "height": 1632,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/qq5.jpg",
+      "sourceSha256": "f5dec1ba6eca16bcdce368852bcb9050c846b00b77244a4b5c65e59127327509"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-02-61aebfab49.png",
+      "displayPath": "web/original-02-61aebfab49.webp",
+      "width": 4032,
+      "height": 3024,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/1막.png",
+      "sourceSha256": "61aebfab49062373e7ed5a85450fcf82ea0b8a34f46b7fb23c8322c9d5d35e17"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-03-35b11100c3.png",
+      "displayPath": "web/original-03-35b11100c3.webp",
+      "width": 4032,
+      "height": 3024,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/1막2장_1.png",
+      "sourceSha256": "35b11100c30c142d40bb53840f604d9f623d2eddf63506128a2b0b8059c777ef"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-04-58843afdc3.png",
+      "displayPath": "web/original-04-58843afdc3.webp",
+      "width": 4032,
+      "height": 3024,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/1막2장_2.png",
+      "sourceSha256": "58843afdc3b79105a657a81c334fd189ec68dac6451eb4a054a28b4c3d14f24f"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-05-67c4ff94d4.png",
+      "displayPath": "web/original-05-67c4ff94d4.webp",
+      "width": 4032,
+      "height": 3024,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/1막2장_Detail.png",
+      "sourceSha256": "67c4ff94d4a6314410b3c019c45265848ce407ee2af785af71ab26ddfda1b42c"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-06-99d96e3c36.png",
+      "displayPath": "web/original-06-99d96e3c36.webp",
+      "width": 4032,
+      "height": 3024,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/2막_1.png",
+      "sourceSha256": "99d96e3c36ca85591154d8bf2e6060c89274ae828cd66eb746081a5bad12643b"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-07-c15e9043a1.png",
+      "displayPath": "web/original-07-c15e9043a1.webp",
+      "width": 4032,
+      "height": 3024,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/2막_3.png",
+      "sourceSha256": "c15e9043a134c8adf8d1cb2ea7ca9748187bca0c23d953807c424cd3bc96baeb"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-08-91b9ebaef7.png",
+      "displayPath": "web/original-08-91b9ebaef7.webp",
+      "width": 4032,
+      "height": 3024,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/3막.png",
+      "sourceSha256": "91b9ebaef76ebdece4ddd6717afc8a0b73b16445c9d3ac1fe574644fb225d125"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-09-d4f06188ab.png",
+      "displayPath": "web/original-09-d4f06188ab.webp",
+      "width": 4032,
+      "height": 3024,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/3막_2.png",
+      "sourceSha256": "d4f06188abdac665fd85178ad6f33a1b656b154a966526fa108e0adecde33991"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-10-bc22e2964b.jpg",
+      "displayPath": "web/original-10-bc22e2964b.webp",
+      "width": 4960,
+      "height": 3507,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/P1.jpg",
+      "sourceSha256": "bc22e2964ba2abbce0a85ff60fd6130487529c69733777a697770e021fd21a5a"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-11-1412b659c8.jpg",
+      "displayPath": "web/original-11-1412b659c8.webp",
+      "width": 4960,
+      "height": 3507,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/p2.jpg",
+      "sourceSha256": "1412b659c8de29a5ff81540672ec215725320f1a1452b83b369f00bc58689baf"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-12-59914e2461.jpg",
+      "displayPath": "web/original-12-59914e2461.webp",
+      "width": 4960,
+      "height": 3507,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/p3.jpg",
+      "sourceSha256": "59914e2461c274bb88ed23d5f5ba2f2fbe298c59c36e5700b87ea1f8ba5c41c0"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-13-17a2c6b4b4.jpg",
+      "displayPath": "web/original-13-17a2c6b4b4.webp",
+      "width": 4960,
+      "height": 3507,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/p4.jpg",
+      "sourceSha256": "17a2c6b4b416a13ca1fac9554eeeb73d7c261b8809b0b78a9658376d495bdc84"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-14-4ef344ffeb.jpg",
+      "displayPath": "web/original-14-4ef344ffeb.webp",
+      "width": 3307,
+      "height": 2339,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/p5.jpg",
+      "sourceSha256": "4ef344ffebda97ae470c55884b74999e1e1d79ca61fc83652f321e385b3a6763"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-15-d570ef0492.jpg",
+      "displayPath": "web/original-15-d570ef0492.webp",
+      "width": 3307,
+      "height": 2339,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/p6.jpg",
+      "sourceSha256": "d570ef04928fa13bb932312631906eacc44b3f0af7c87acfc6cd1bc37c10fc32"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-16-39cb80bfe6.jpg",
+      "displayPath": "web/original-16-39cb80bfe6.webp",
+      "width": 3307,
+      "height": 2339,
+      "source": "User-provided original",
+      "originalSource": "필로우맨/p7.jpg",
+      "sourceSha256": "39cb80bfe69d7ff5aa6e350cca9ae1ecac5979afbd77185b0acf5b424c7e4663"
+    }
+  ],
+  "role": "중앙대학교 공간연출과 졸업 작품 · 무대 디자인",
+  "detail": "2024-1"
+}

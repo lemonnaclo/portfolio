@@ -1,0 +1,89 @@
+{
+  "appliedToActiveSite": true,
+  "appliedAt": "2026-11-15T17:32:46.767132",
+  "choices": [
+    {
+      "number": 1,
+      "id": "production-cave-raider",
+      "source": "01-A.png",
+      "path": "projects/production-cave-raider/assets/thumbnails/selected.png",
+      "approved": true,
+      "sha256": "32b0648e15ec83f840210c17920eee533053fb3cc0216006f9fb2633b9e6eabb"
+    },
+    {
+      "number": 2,
+      "id": "3d-vr-ac-simulation",
+      "source": "3d-vr-ac-simulation.jpg",
+      "path": "projects/3d-vr-ac-simulation/assets/thumbnails/selected.png",
+      "approved": true,
+      "sha256": "e68426c2b056e9fd08e83cc0aa8e62caa74ee27d1ee15d4c62d0926534e29ca0"
+    },
+    {
+      "number": 3,
+      "id": "3d-1960-elementary-classroom",
+      "source": "3d-1960-elementary-classroom.jpg",
+      "path": "projects/3d-1960-elementary-classroom/assets/thumbnails/selected.png",
+      "approved": true,
+      "sha256": "63593025a7f05c7c1d1ec1edb2f5df9d1b554cce1e925ee1a2f6ef9cb2205333"
+    },
+    {
+      "number": 4,
+      "id": "vmd-oliveyoung-01",
+      "source": "vmd-oliveyoung-01.jpg",
+      "path": "projects/vmd-oliveyoung-01/assets/thumbnails/selected.png",
+      "approved": true,
+      "sha256": "236f32d26e26a4a5c8d188df5c87dff0548d5460e8e9fa196b4c909606c4f8fb"
+    },
+    {
+      "number": 5,
+      "id": "vmd-oliveyoung-02",
+      "source": "vmd-oliveyoung-02.jpg",
+      "path": "projects/vmd-oliveyoung-02/assets/thumbnails/selected.png",
+      "approved": true,
+      "sha256": "b45c79acf75cb101c91befa56b21b5dc0e8b26eaa50769098623b2e5dab0860e"
+    },
+    {
+      "number": 6,
+      "id": "vmd-oliveyoung-03",
+      "source": "vmd-oliveyoung-03.jpg",
+      "path": "projects/vmd-oliveyoung-03/assets/thumbnails/selected.png",
+      "approved": true,
+      "sha256": "981a0348f69cbbfc7884f282e6827a69afce2d188b386fa43d22482490270584"
+    },
+    {
+      "number": 7,
+      "id": "vmd-oliveyoung-04",
+      "source": "07-A.png",
+      "path": "projects/vmd-oliveyoung-04/assets/thumbnails/selected.png",
+      "approved": true,
+      "sha256": "31d2f33c5ade8f96cdf54fb67381b79b066817b918f16789000795d26b38cb72"
+    },
+    {
+      "number": 8,
+      "id": "vmd-oliveyoung-05",
+      "source": "08-three-panels.png",
+      "path": "projects/vmd-oliveyoung-05/assets/thumbnails/selected.png",
+      "approved": true,
+      "sha256": "0f652b49704b633dba0f01b8421d752d122151276d2e6a8e1f464e8be8250785"
+    }
+  ],
+  "vmd05Composite": {
+    "sources": [
+      "vmd/KakaoTalk_20250126_145518684_07.jpg",
+      "vmd/KakaoTalk_20250126_145518684_01.jpg",
+      "vmd/KakaoTalk_20250126_145518684_03.jpg"
+    ],
+    "order": [
+      "과자 제품",
+      "오렌지 배경 캔",
+      "금색 볼"
+    ],
+    "panelCount": 3,
+    "size": [
+      2832,
+      1600
+    ],
+    "crop": "Full width; top 2000 pixels of each source screenshot",
+    "gutter": 12
+  }
+}

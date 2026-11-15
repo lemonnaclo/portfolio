@@ -1,0 +1,77 @@
+[
+  {
+    "number": 1,
+    "id": "production-cave-raider",
+    "title": "CAVE RAIDER",
+    "before": "before/production-cave-raider.jpg",
+    "candidate": "../../projects/production-cave-raider/assets/thumbnails/selected.png",
+    "reason": "푸른 오브젝트와 동굴 디테일",
+    "approved": true,
+    "selectedCode": "01-A"
+  },
+  {
+    "number": 2,
+    "id": "3d-vr-ac-simulation",
+    "title": "에어컨 설비 시뮬레이션",
+    "before": "before/3d-vr-ac-simulation.jpg",
+    "candidate": "../../projects/3d-vr-ac-simulation/assets/thumbnails/selected.png",
+    "reason": "환경 전경 대신 냉각탑 모델링",
+    "approved": true
+  },
+  {
+    "number": 3,
+    "id": "3d-1960-elementary-classroom",
+    "title": "1960 Korea Elementary School",
+    "before": "before/3d-1960-elementary-classroom.jpg",
+    "candidate": "../../projects/3d-1960-elementary-classroom/assets/thumbnails/selected.png",
+    "reason": "와이어프레임 대신 컬러 렌더",
+    "approved": true
+  },
+  {
+    "number": 4,
+    "id": "vmd-oliveyoung-01",
+    "title": "올영TV 〈훈남생정〉",
+    "before": "before/vmd-oliveyoung-01.jpg",
+    "candidate": "../../projects/vmd-oliveyoung-01/assets/thumbnails/selected.png",
+    "reason": "인물이 없는 세트 전경",
+    "approved": true
+  },
+  {
+    "number": 5,
+    "id": "vmd-oliveyoung-02",
+    "title": "겟잎논쟁 × 유세린",
+    "before": "before/vmd-oliveyoung-02.jpg",
+    "candidate": "../../projects/vmd-oliveyoung-02/assets/thumbnails/selected.png",
+    "reason": "완성된 제품 디스플레이",
+    "approved": true
+  },
+  {
+    "number": 6,
+    "id": "vmd-oliveyoung-03",
+    "title": "장인의 컬렉션",
+    "before": "before/vmd-oliveyoung-03.jpg",
+    "candidate": "../../projects/vmd-oliveyoung-03/assets/thumbnails/selected.png",
+    "reason": "진열대 일부 대신 전체 공간",
+    "approved": true
+  },
+  {
+    "number": 7,
+    "id": "vmd-oliveyoung-04",
+    "title": "올영TV 〈야간개장〉",
+    "before": "before/vmd-oliveyoung-04.jpg",
+    "candidate": "../../projects/vmd-oliveyoung-04/assets/thumbnails/selected.png",
+    "reason": "인물 없는 소품·디스플레이 컷",
+    "approved": true,
+    "selectedCode": "07-A"
+  },
+  {
+    "number": 8,
+    "id": "vmd-oliveyoung-05",
+    "title": "올영TV 〈왜영〉",
+    "before": "before/vmd-oliveyoung-05.jpg",
+    "candidate": "../../projects/vmd-oliveyoung-05/assets/thumbnails/selected.png",
+    "reason": "과자·캔·금색 볼의 세로 이미지 3컷",
+    "approved": true,
+    "selectedCode": "08-reference-three-panels"
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "id": "3d-vr-ac-simulation",
+  "date": "2023.12 - 2024.01",
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified.",
+  "title": "VR 교육컨텐츠 [에어컨 설비 시뮬레이션] 모델링",
+  "inventoryStatus": "originals-upgraded",
+  "sourceRoute": "202312-202401",
+  "description": "VR 교육 컨텐츠 제작 참여 (에어컨 시스템 에셋 모델링)",
+  "category": "3D",
+  "media": [
+    {
+      "type": "image",
+      "path": "high-res/original-01-f05e60c6de.png",
+      "source": "User-provided original",
+      "displayPath": "web/original-01-f05e60c6de.webp",
+      "width": 3822,
+      "height": 2734,
+      "originalSource": "vr_project/2024-01-31_1.08.31.png",
+      "sourceSha256": "f05e60c6defd3235370c4be77b20c5fc4e6c33f55c43d7fc972b26484e50cbbf"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-02-7a4bd92493.png",
+      "source": "User-provided original",
+      "displayPath": "web/original-02-7a4bd92493.webp",
+      "width": 6016,
+      "height": 3108,
+      "originalSource": "vr_project/2024-01-31_1.08.47.png",
+      "sourceSha256": "7a4bd92493f6465a09de225d743c2019a17fccdb1ea41ddca42faae02ca2d730"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-04-ee5c79034b.png",
+      "source": "User-provided original",
+      "displayPath": "web/original-04-ee5c79034b.webp",
+      "width": 6016,
+      "height": 3120,
+      "originalSource": "vr_project/2024-01-31_1.09.09.png",
+      "sourceSha256": "ee5c79034b4b543b1c78e02e95bf088006783808f70281710be68700d05bb83a"
+    },
+    {
+      "type": "image",
+      "path": "cover-overview.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "Full__1.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "Full_2.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "Section_1.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "Section_2.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "video-embed",
+      "provider": "Adobe Creative Cloud Player",
+      "embedId": "-IKk3AqkAJz"
+    }
+  ],
+  "role": "호크아이스튜디오 · 임시직/프리랜서",
+  "detail": "냉각탑 에셋 모댈링",
+  "additionalText": "VR 교육컨텐츠 [에어컨 설비 시뮬레이션]"
+}

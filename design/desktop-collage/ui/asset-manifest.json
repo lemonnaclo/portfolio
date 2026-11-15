@@ -1,0 +1,164 @@
+[
+  {
+    "file": "icons/3d.png",
+    "svg": "icons/3d.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "icons/contact.png",
+    "svg": "icons/contact.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "icons/folder.png",
+    "svg": "icons/folder.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "icons/production.png",
+    "svg": "icons/production.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "icons/profile.png",
+    "svg": "icons/profile.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "icons/readme.png",
+    "svg": "icons/readme.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "icons/stage.png",
+    "svg": "icons/stage.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "icons/start.png",
+    "svg": "icons/start.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "icons/vmd.png",
+    "svg": "icons/vmd.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "icons/works.png",
+    "svg": "icons/works.svg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "images/boot-frame.png",
+    "svg": "images/boot-frame.svg",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "file": "images/boot-progress-fill.png",
+    "svg": "images/boot-progress-fill.svg",
+    "width": 13,
+    "height": 8
+  },
+  {
+    "file": "images/boot-progress-track.png",
+    "svg": "images/boot-progress-track.svg",
+    "width": 600,
+    "height": 14
+  },
+  {
+    "file": "images/button-primary.png",
+    "svg": "images/button-primary.svg",
+    "width": 400,
+    "height": 48
+  },
+  {
+    "file": "images/control-close.png",
+    "svg": "images/control-close.svg",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "images/control-maximize.png",
+    "svg": "images/control-maximize.svg",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "images/control-minimize.png",
+    "svg": "images/control-minimize.svg",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "images/featured-frame.png",
+    "svg": "images/featured-frame.svg",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "file": "images/login-background.png",
+    "svg": "images/login-background.svg",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "file": "images/login-frame.png",
+    "svg": "images/login-frame.svg",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "file": "images/photo-window-surface.png",
+    "svg": "images/photo-window-surface.svg",
+    "width": 600,
+    "height": 400
+  },
+  {
+    "file": "images/stage-living-double-life-frame.png",
+    "svg": "images/stage-living-double-life-frame.svg",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "file": "images/stage-pillowman-frame.png",
+    "svg": "images/stage-pillowman-frame.svg",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "file": "images/stage-waiting-for-you-frame.png",
+    "svg": "images/stage-waiting-for-you-frame.svg",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "file": "images/titlebar-active.png",
+    "svg": "images/titlebar-active.svg",
+    "width": 1000,
+    "height": 40
+  },
+  {
+    "file": "images/wallpaper-desktop.png",
+    "svg": "images/wallpaper-desktop.svg",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "file": "images/wallpaper-mobile.png",
+    "svg": "images/wallpaper-mobile.svg",
+    "width": 1080,
+    "height": 1920
+  }
+]

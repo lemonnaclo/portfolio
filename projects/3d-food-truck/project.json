@@ -1,0 +1,28 @@
+{
+  "id": "3d-food-truck",
+  "date": null,
+  "title": "[3d modeling] food-truck",
+  "description": null,
+  "category": "3D",
+  "sourceRoute": "copy-of-3d-modeling-1960-korea-elementary-school-classroom-1",
+  "rawPageText": "[3d modeling] food-truck\n\nModeling 25.5h / Texture 7h / Lighting 2.5h\n\n애니메션 스타일 푸드트럭 · 개인 작업\nMaya, Photoshop, Substance Painter 3D, V-Ray\n\n-\nreference image - concept art by 'Marina Couso'\n-",
+  "media": [
+    {
+      "type": "image",
+      "path": "6845b674-0ce2-4b7c-970a-e180f05cb486_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "6fb1fc0f-0801-4af4-ab37-299fb03ba079_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "70ff2a97-9832-4387-ae04-22bcf8d7c521_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    }
+  ],
+  "inventoryStatus": "renditions-copied",
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified."
+}

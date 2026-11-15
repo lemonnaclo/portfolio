@@ -1,0 +1,331 @@
+{
+  "version": 2,
+  "pathBase": "ui/",
+  "note": "기본 표시 파일은 PNG. 같은 이름의 PNG를 덮어쓰면 적용됨. SVG 원본도 함께 제공.",
+  "slots": [
+    {
+      "file": "images/wallpaper-desktop.png",
+      "width": 1920,
+      "height": 1080,
+      "label": "PC 바탕화면",
+      "usage": "배경 전체를 덮는 이미지. cover로 잘리므로 중요한 요소는 중앙에 배치.",
+      "svgSource": "images/wallpaper-desktop.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/wallpaper-mobile.png",
+      "width": 1080,
+      "height": 1920,
+      "label": "모바일 바탕화면",
+      "usage": "세로 화면용. 700px 이하에서 적용.",
+      "svgSource": "images/wallpaper-mobile.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/login-background.png",
+      "width": 1920,
+      "height": 1080,
+      "label": "로그인 배경",
+      "usage": "로그인 화면의 배경. cover로 표시.",
+      "svgSource": "images/login-background.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/window-frame.png",
+      "width": 120,
+      "height": 120,
+      "label": "작업 팝업 테두리",
+      "usage": "9-slice: 상하좌우 12px를 모서리로 사용. 가운데는 투명.",
+      "svgSource": "images/window-frame.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/login-frame.png",
+      "width": 120,
+      "height": 120,
+      "label": "로그인 패널 테두리",
+      "usage": "9-slice: 상하좌우 12px. 가운데 투명.",
+      "svgSource": "images/login-frame.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/pinned-frame.png",
+      "width": 120,
+      "height": 120,
+      "label": "주 작업 패널 테두리",
+      "usage": "9-slice: 상하좌우 12px. 가운데 투명.",
+      "svgSource": "images/pinned-frame.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/titlebar-active.png",
+      "width": 1000,
+      "height": 48,
+      "label": "활성 창 제목 표시줄",
+      "usage": "가로로 늘어나며 버튼과 제목은 HTML로 유지.",
+      "svgSource": "images/titlebar-active.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/titlebar-inactive.png",
+      "width": 1000,
+      "height": 48,
+      "label": "비활성 창 제목 표시줄",
+      "usage": "다른 창이 선택되었을 때.",
+      "svgSource": "images/titlebar-inactive.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/button-primary.png",
+      "width": 400,
+      "height": 60,
+      "label": "로그인·일반 버튼 바탕",
+      "usage": "텍스트는 HTML로 표시. 배경만 제작.",
+      "svgSource": "images/button-primary.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/taskbar.png",
+      "width": 1920,
+      "height": 64,
+      "label": "하단 작업 표시줄",
+      "usage": "가로로 늘어나며 시작·창 목록·시계는 HTML로 유지.",
+      "svgSource": "images/taskbar.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/start-button.png",
+      "width": 160,
+      "height": 60,
+      "label": "시작 버튼 바탕",
+      "usage": "아이콘과 시작 텍스트는 HTML로 유지.",
+      "svgSource": "images/start-button.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/start-menu.png",
+      "width": 360,
+      "height": 600,
+      "label": "시작 메뉴 바탕",
+      "usage": "메뉴 항목은 HTML로 유지. 배경은 늘어나므로 단순 패턴 권장.",
+      "svgSource": "images/start-menu.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/window-surface.png",
+      "width": 1200,
+      "height": 800,
+      "label": "파일 탐색기·Contact·Readme 안쪽 바탕",
+      "usage": "작품 상세/프로필 콘텐츠의 배경은 변경하지 않음.",
+      "svgSource": "images/window-surface.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/avatar.png",
+      "width": 256,
+      "height": 256,
+      "label": "아바타",
+      "usage": "정사각형, 투명 배경 권장",
+      "svgSource": "images/avatar.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/control-minimize.png",
+      "width": 64,
+      "height": 64,
+      "label": "최소화",
+      "usage": "버튼 전체 디자인과 기호 포함. 클릭 기능은 HTML 유지.",
+      "svgSource": "images/control-minimize.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/control-maximize.png",
+      "width": 64,
+      "height": 64,
+      "label": "최대화",
+      "usage": "버튼 전체 디자인과 기호 포함. 클릭 기능은 HTML 유지.",
+      "svgSource": "images/control-maximize.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "images/control-close.png",
+      "width": 64,
+      "height": 64,
+      "label": "닫기",
+      "usage": "버튼 전체 디자인과 기호 포함. 클릭 기능은 HTML 유지.",
+      "svgSource": "images/control-close.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/folder.png",
+      "width": 128,
+      "height": 128,
+      "label": "folder",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/folder.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/stage.png",
+      "width": 128,
+      "height": 128,
+      "label": "stage",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/stage.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/production.png",
+      "width": 128,
+      "height": 128,
+      "label": "production",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/production.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/3d.png",
+      "width": 128,
+      "height": 128,
+      "label": "3d",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/3d.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/vmd.png",
+      "width": 128,
+      "height": 128,
+      "label": "vmd",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/vmd.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/profile.png",
+      "width": 128,
+      "height": 128,
+      "label": "profile",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/profile.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/contact.png",
+      "width": 128,
+      "height": 128,
+      "label": "contact",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/contact.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/works.png",
+      "width": 128,
+      "height": 128,
+      "label": "works",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/works.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/readme.png",
+      "width": 128,
+      "height": 128,
+      "label": "readme",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/readme.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    },
+    {
+      "file": "icons/start.png",
+      "width": 128,
+      "height": 128,
+      "label": "start",
+      "usage": "투명 배경, 정사각형 아트보드 권장",
+      "svgSource": "icons/start.svg",
+      "formats": [
+        "png",
+        "svg"
+      ]
+    }
+  ]
+}

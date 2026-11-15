@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 56" width="128" height="128"><defs>
+      <linearGradient id="folder-face" x1="0" y1="0" x2="0.3" y2="1"><stop stop-color="#fff3c1"/><stop offset=".48" stop-color="#ffda76"/><stop offset=".51" stop-color="#f5bf50"/><stop offset="1" stop-color="#ffe49b"/></linearGradient>
+      <linearGradient id="icon-paper" x2=".7" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#c5d7fa"/></linearGradient>
+      <linearGradient id="icon-glass" x2=".6" y2="1"><stop stop-color="#f0f7ff"/><stop offset=".4" stop-color="#b8d9ff"/><stop offset="1" stop-color="#7e9edb"/></linearGradient>
+    </defs><g color="#b7a7ff"><path d="M5 13V7a3 3 0 0 1 3-3h17l7 8h25a3 3 0 0 1 3 3v33H5z" fill="currentColor" stroke="#504c8b" stroke-width="1.3"/><path d="M8 13h45v27H8z" fill="url(#icon-paper)" stroke="#e8ecff"/><path d="M5 19h55a2 2 0 0 1 2 2l-6 29a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2l1-29a2 2 0 0 1 2-2z" fill="url(#folder-face)" stroke="#ad7e40" stroke-width="1.3"/><path d="M7 22h50M8 8h15" fill="none" stroke="#fff9db" stroke-width="1.8"/><path d="M7 48h45" stroke="#dba04a" stroke-width="1.2"/></g></svg>

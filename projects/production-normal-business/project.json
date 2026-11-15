@@ -1,0 +1,164 @@
+{
+  "id": "production-normal-business",
+  "date": null,
+  "sourceFilesStatus": "Original image files copied from the user-provided src folder; older web renditions retained on disk.",
+  "title": "프로덕션 디자인 [정상영업 합니다]",
+  "inventoryStatus": "originals-upgraded",
+  "sourceRoute": null,
+  "description": "프로덕션 디자인 [정상영업 합니다]",
+  "category": "Production Design",
+  "media": [
+    {
+      "type": "image",
+      "path": "high-res/original-01-dcc9e97372.jpg",
+      "displayPath": "web/original-01-dcc9e97372.webp",
+      "width": 1592,
+      "height": 764,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/apocalpse/1109공영디2 ddd_1.jpg",
+      "sourceSha256": "dcc9e973728acfca0119404dff0321498d97b2765d52617670fc8475c771d572"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-02-1588df901e.png",
+      "displayPath": "web/original-02-1588df901e.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/ORIGINAL/1.png",
+      "sourceSha256": "1588df901e0ceb50b587dcf8cdcb92fade92edc1ee6114ff6b2a1c1b3f3c7096"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-03-ecf389c276.png",
+      "displayPath": "web/original-03-ecf389c276.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/ORIGINAL/3.png",
+      "sourceSha256": "ecf389c276488c66a14b9d6c02055384c2b20b309561f4bce6d6c132c42942c5"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-04-6aefa954b6.png",
+      "displayPath": "web/original-04-6aefa954b6.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/ORIGINAL/4.png",
+      "sourceSha256": "6aefa954b628ef322d09fde5e48bd93a6fb3246ce4a7116619ae774760677f30"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-05-4e6041d120.png",
+      "displayPath": "web/original-05-4e6041d120.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/ORIGINAL/5.png",
+      "sourceSha256": "4e6041d12070e5b35fd1a01427673adb3c0741b1b48fca04b2e1fb38c4055fc3"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-06-987607ac92.png",
+      "displayPath": "web/original-06-987607ac92.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/ORIGINAL/10.png",
+      "sourceSha256": "987607ac92fda2ca06e0b4090ea87bc765e50f440055556f6fba130ab5de0428"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-07-a6da46e2ec.png",
+      "displayPath": "web/original-07-a6da46e2ec.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/ORIGINAL/12.png",
+      "sourceSha256": "a6da46e2ecd6e77169d732a28a78c69a13c00d996fc14c7dfbc4c3c0d2d21ca0"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-08-71fcf91a49.png",
+      "displayPath": "web/original-08-71fcf91a49.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/apocalpse/1.png",
+      "sourceSha256": "71fcf91a495a94b2377fc73b222ec045fc57c5773328bbeabc1bf83676c54463"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-09-f0d257b531.jpg",
+      "displayPath": "web/original-09-f0d257b531.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/apocalpse/2.jpg",
+      "sourceSha256": "f0d257b531e1b62c6c7f8ba5a6789c12725e739060b34fe8a6fdeaed2e9635b7"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-10-3c064b4d82.png",
+      "displayPath": "web/original-10-3c064b4d82.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/apocalpse/3.png",
+      "sourceSha256": "3c064b4d8294755020eac197fcd4e4d20942cf08b219de31ce9caa6d540f4192"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-11-011520c0f2.png",
+      "displayPath": "web/original-11-011520c0f2.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/apocalpse/4.png",
+      "sourceSha256": "011520c0f200dd918b8ce142cf09df900b03fba05bf8f3f6c8d371d8b00d061e"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-12-adb7928da0.png",
+      "displayPath": "web/original-12-adb7928da0.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/apocalpse/5.png",
+      "sourceSha256": "adb7928da0c14cbb25392ebdbe8a94b5593d0b183c5569fe81f25362706bdbfa"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-13-eae7777a5b.png",
+      "displayPath": "web/original-13-eae7777a5b.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/apocalpse/10.png",
+      "sourceSha256": "eae7777a5ba59e64a75eee1bdcf777f46cbf789f39d3fffdca9b529da8bd9beb"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-14-be6ae9e460.png",
+      "displayPath": "web/original-14-be6ae9e460.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/apocalpse/12.png",
+      "sourceSha256": "be6ae9e4606779d2a6f8070e9ca8ce388e8da750c4f02046f1c6882f5342e5d5"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-15-89be860293.png",
+      "displayPath": "web/original-15-89be860293.webp",
+      "width": 1920,
+      "height": 1080,
+      "source": "User-provided original",
+      "originalSource": "apocalypse/렌더링 이미지/apocalpse/15.png",
+      "sourceSha256": "89be8602935faafb08fd3e85b3362dc1408a422be37b52d2e802fa2c44e9f1ec"
+    }
+  ],
+  "role": "2022-2 아포칼립스 프로젝트 · 프로덕션 디자인",
+  "detail": "2022-2"
+}

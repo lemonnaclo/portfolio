@@ -1,0 +1,174 @@
+{
+  "id": "stage-living-double-life",
+  "date": null,
+  "sourceFilesStatus": "Original image files copied from the user-provided src folder; older web renditions retained on disk.",
+  "title": "무대 디자인 [살아있는 이중생 각하]",
+  "inventoryStatus": "originals-upgraded",
+  "sourceRoute": null,
+  "description": "무대 디자인 [살아있는 이중생 각하]",
+  "category": "Stage Design",
+  "media": [
+    {
+      "type": "image",
+      "path": "high-res/original-01-78746c16ed.png",
+      "displayPath": "web/original-01-78746c16ed.webp",
+      "width": 6000,
+      "height": 3368,
+      "source": "User-provided original",
+      "originalSource": "이중생/1.1.png",
+      "sourceSha256": "78746c16ed79bcd1c0dd9f67e957ce9a7256b2d2ee88cad00f584858ec9b95fc"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-02-5d642847bb.jpg",
+      "displayPath": "web/original-02-5d642847bb.webp",
+      "width": 6000,
+      "height": 3368,
+      "source": "User-provided original",
+      "originalSource": "이중생/IMG_0078.JPG",
+      "sourceSha256": "5d642847bb3b9cf205e4c7d40bd2bcb154d15bb13c18a83d46c5c6e17c249883"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-03-2616012b96.png",
+      "displayPath": "web/original-03-2616012b96.webp",
+      "width": 7500,
+      "height": 4210,
+      "source": "User-provided original",
+      "originalSource": "이중생/1.5.png",
+      "sourceSha256": "2616012b969fe2fcbb2e0b0f9768670033a966b58db0f0254d022950459d5a78"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-04-e6ca3e0918.png",
+      "displayPath": "web/original-04-e6ca3e0918.webp",
+      "width": 9000,
+      "height": 5052,
+      "source": "User-provided original",
+      "originalSource": "이중생/2.png",
+      "sourceSha256": "e6ca3e0918d816f5d91b236a3aff07a90d0f584d93ffda7f695b6d9f063a3d84"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-05-93ee04432d.jpg",
+      "displayPath": "web/original-05-93ee04432d.webp",
+      "width": 6000,
+      "height": 3368,
+      "source": "User-provided original",
+      "originalSource": "이중생/IMG_0341.JPG",
+      "sourceSha256": "93ee04432d31db3334a3d587531835e58db88b51aa19846a40d7a28c86b7b6fd"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-06-c7eeb7b706.png",
+      "displayPath": "web/original-06-c7eeb7b706.webp",
+      "width": 9000,
+      "height": 5052,
+      "source": "User-provided original",
+      "originalSource": "이중생/3.png",
+      "sourceSha256": "c7eeb7b70661baf3c2910d8f178c63847722d75769b4d36c8f044a07bf259a78"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-07-c49b060ffd.png",
+      "displayPath": "web/original-07-c49b060ffd.webp",
+      "width": 6000,
+      "height": 3368,
+      "source": "User-provided original",
+      "originalSource": "이중생/4.png",
+      "sourceSha256": "c49b060ffd3d04da514dbbe390741590dedbf1dc380f2a2aaacf1f9e5c079e40"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-08-d0ad405c06.png",
+      "displayPath": "web/original-08-d0ad405c06.webp",
+      "width": 6000,
+      "height": 3368,
+      "source": "User-provided original",
+      "originalSource": "이중생/5.png",
+      "sourceSha256": "d0ad405c06fc968158d8c7cbdb804b9489dc497d2329cb5884663f04a16ae027"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-09-939450ba04.png",
+      "displayPath": "web/original-09-939450ba04.webp",
+      "width": 6000,
+      "height": 3368,
+      "source": "User-provided original",
+      "originalSource": "이중생/6.png",
+      "sourceSha256": "939450ba04ad263559374e67580e1404a8af6620649c5a27fd0a3d58c0f0f07d"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-10-c15baaac7e.png",
+      "displayPath": "web/original-10-c15baaac7e.webp",
+      "width": 6000,
+      "height": 3368,
+      "source": "User-provided original",
+      "originalSource": "이중생/7.png",
+      "sourceSha256": "c15baaac7eee28784add7556605afac9cc8ab57ca135a99c5fac42ee1949ad59"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-11-56cf82d9ea.png",
+      "displayPath": "web/original-11-56cf82d9ea.webp",
+      "width": 6000,
+      "height": 3368,
+      "source": "User-provided original",
+      "originalSource": "이중생/IMG_99421.png",
+      "sourceSha256": "56cf82d9ea3b1f3e630cc065dccb92e93d25407fe1d04881a873f29d8476977e"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-12-da1e97ddb6.jpg",
+      "displayPath": "web/original-12-da1e97ddb6.webp",
+      "width": 4506,
+      "height": 3189,
+      "source": "User-provided original",
+      "originalSource": "이중생/d1.jpg",
+      "sourceSha256": "da1e97ddb64a37901984eb88b085eb10bd9212bd6d7bbdc11b6de63c4012c739"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-13-14fd2e34e8.jpg",
+      "displayPath": "web/original-13-14fd2e34e8.webp",
+      "width": 4506,
+      "height": 3177,
+      "source": "User-provided original",
+      "originalSource": "이중생/d2.jpg",
+      "sourceSha256": "14fd2e34e8ad9d070b378dac3b3888b15de58166e20d17c1a2dc2cb390f4285a"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-14-6bc03a8c3b.jpg",
+      "displayPath": "web/original-14-6bc03a8c3b.webp",
+      "width": 4506,
+      "height": 3186,
+      "source": "User-provided original",
+      "originalSource": "이중생/d3.jpg",
+      "sourceSha256": "6bc03a8c3bdfa58bf372a76fb5bcb54316a4bd5e69afa8af54cf7ef462def69a"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-15-7fef9d4fcd.jpg",
+      "displayPath": "web/original-15-7fef9d4fcd.webp",
+      "width": 4509,
+      "height": 3192,
+      "source": "User-provided original",
+      "originalSource": "이중생/d4.jpg",
+      "sourceSha256": "7fef9d4fcd62d29a4591a4b157a18630be0ea18d9f5d7d2647e024da6ff97e1d"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-16-efaabdc86b.jpg",
+      "displayPath": "web/original-16-efaabdc86b.webp",
+      "width": 4515,
+      "height": 3195,
+      "source": "User-provided original",
+      "originalSource": "이중생/d5.jpg",
+      "sourceSha256": "efaabdc86bc0b7d2b254e46d46d4768a75e1da15f38e8104f728083b5751997c"
+    }
+  ],
+  "role": "2022-1 중앙대학교 연극학과 제작공연 · 무대 디자인",
+  "detail": "2022.06.03 - 2022.06.05"
+}

@@ -1,0 +1,138 @@
+{
+  "3d-itzy-untouchable": {
+    "displayTitle": "ITZY 〈UNTOUCHABLE〉",
+    "subtitle": "뮤직비디오 에셋 모델링",
+    "year": "2023",
+    "summary": "뮤직비디오 FX 효과가 적용될 에셋의 다리 부분 모델링에 참여했습니다.",
+    "roleLabel": "3D 에셋 모델링 · 프리랜서"
+  },
+  "3d-vr-ac-simulation": {
+    "displayTitle": "에어컨 설비 시뮬레이션",
+    "subtitle": "VR 교육 콘텐츠 에셋 모델링",
+    "year": "2023—2024",
+    "summary": "VR 교육 콘텐츠에 사용되는 에어컨 시스템과 냉각탑 에셋 모델링에 참여했습니다.",
+    "thumbnailFile": "thumbnails/selected.png",
+    "thumbnailFit": "cover"
+  },
+  "3d-seoul-subway-line-2": {
+    "displayTitle": "Seoul Subway Line 2",
+    "subtitle": "3D 모델링 · 개인 작업",
+    "tools": [
+      "Maya",
+      "Photoshop",
+      "Substance Painter",
+      "V-Ray"
+    ]
+  },
+  "3d-1960-elementary-classroom": {
+    "displayTitle": "1960 Korea Elementary School",
+    "subtitle": "3D 모델링",
+    "thumbnailFile": "thumbnails/selected.png",
+    "thumbnailFit": "cover"
+  },
+  "3d-food-truck": {
+    "displayTitle": "Food Truck",
+    "subtitle": "3D 모델링"
+  },
+  "3d-railroad-crossing": {
+    "displayTitle": "Railroad Crossing",
+    "subtitle": "3D 모델링",
+    "thumbnailIndex": 1
+  },
+  "3d-oni-mask": {
+    "displayTitle": "Oni Mask",
+    "subtitle": "3D 모델링",
+    "imageFit": "contain"
+  },
+  "3d-keroro": {
+    "displayTitle": "Keroro",
+    "subtitle": "3D 모델링 · 개인 작업",
+    "tools": [
+      "Maya",
+      "Photoshop",
+      "Substance Painter",
+      "V-Ray"
+    ]
+  },
+  "3d-magic-wand": {
+    "displayTitle": "Magic Wand",
+    "subtitle": "3D 모델링 · 개인 작업",
+    "tools": [
+      "Maya",
+      "Photoshop",
+      "Substance Painter",
+      "V-Ray"
+    ]
+  },
+  "3d-lego-scene": {
+    "displayTitle": "Lego Scene",
+    "subtitle": "3D 모델링 · 개인 작업",
+    "tools": [
+      "Maya",
+      "Photoshop",
+      "V-Ray"
+    ]
+  },
+  "3d-assets": {
+    "displayTitle": "3D Assets",
+    "subtitle": "3D 에셋 · 개인 작업",
+    "thumbnailIndex": 1,
+    "tools": [
+      "Maya",
+      "Photoshop",
+      "Substance Painter",
+      "V-Ray"
+    ]
+  },
+  "vmd-oliveyoung-01": {
+    "displayTitle": "올영TV 〈훈남생정〉",
+    "subtitle": "CJ 올리브영 · EP.8",
+    "summary": "올리브영 미디어커머스 콘텐츠를 위한 VMD 작업입니다.",
+    "thumbnailFile": "thumbnails/selected.png",
+    "thumbnailFit": "cover"
+  },
+  "vmd-oliveyoung-02": {
+    "displayTitle": "겟잎논쟁 × 유세린",
+    "subtitle": "CJ 올리브영 · 라이브커머스",
+    "summary": "올영라이브 콘텐츠의 공간과 제품 연출을 위한 VMD 작업입니다.",
+    "imageFit": "contain",
+    "thumbnailFile": "thumbnails/selected.png",
+    "thumbnailFit": "cover"
+  },
+  "vmd-oliveyoung-03": {
+    "displayTitle": "장인의 컬렉션",
+    "subtitle": "CJ 올리브영 · EP.1-1",
+    "tools": [
+      "SketchUp",
+      "Enscape"
+    ],
+    "thumbnailFile": "thumbnails/selected.png",
+    "thumbnailFit": "cover"
+  },
+  "vmd-oliveyoung-04": {
+    "displayTitle": "올영TV 〈야간개장〉",
+    "subtitle": "CJ 올리브영 · EP.5–6",
+    "year": "2023",
+    "summary": "올리브영 플러스점을 촬영 공간으로 활용한 〈야간개장〉의 VMD 작업입니다.",
+    "roleLabel": "VMD · 프리랜서",
+    "thumbnailFile": "thumbnails/selected.png",
+    "thumbnailFit": "cover"
+  },
+  "vmd-oliveyoung-05": {
+    "displayTitle": "올영TV 〈왜영〉",
+    "subtitle": "CJ 올리브영 · EP.5",
+    "imageFit": "contain",
+    "thumbnailFile": "thumbnails/selected.png",
+    "thumbnailFit": "contain"
+  },
+  "production-cave-raider": {
+    "displayTitle": "CAVE RAIDER",
+    "subtitle": "프로덕션 디자인",
+    "year": "2024",
+    "tools": [
+      "Unreal Engine 5"
+    ],
+    "thumbnailFile": "thumbnails/selected.png",
+    "thumbnailFit": "cover"
+  }
+}

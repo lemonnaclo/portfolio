@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#10172b">
+  <meta name="description" content="전아영의 작업 공간. Stage Design, Production Design, 3D, VMD.">
+  <title>JUN AYOUNG — Desktop</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./desktop.css">
+  <link rel="stylesheet" href="./ui/theme.css">
+  <script src="./data/content.js" defer></script>
+  <script src="./common.js" defer></script>
+  <script src="./ui/config.js" defer></script>
+  <script src="./desktop.js" defer></script>
+</head>
+<body class="desktop-page">
+<section class="login-screen" id="login-screen" aria-labelledby="login-name">
+    <div class="login-wallpaper" aria-hidden="true"><span>JUN<br>AYOUNG</span></div>
+    <div class="login-panel">
+      <div class="login-titlebar"><img class="ui-icon" data-ui-icon="grid" src="./ui/icons/start.png" alt="" aria-hidden="true"><span>JUN AYOUNG</span><span class="titlebar-detail">PORTFOLIO</span></div>
+      <div class="login-content">
+        <div class="account-avatar" aria-hidden="true"><img class="avatar-art" src="./ui/images/avatar.png" alt=""><span>✦</span></div>
+        <p class="login-welcome">작업 공간에 오신 것을 환영합니다.</p>
+        <h1 id="login-name">JUN AYOUNG</h1>
+        <p class="login-description" id="login-description">공간과 장면에 이야기를 담는 디자이너, 전아영입니다.</p>
+        <button class="login-button" id="login-button" type="button">로그인 <span aria-hidden="true">↗</span></button>
+        <p class="login-note">비밀번호 없이 둘러볼 수 있습니다.</p>
+        <a class="classic-link" href="./works.html">작업 목록 바로 보기 →</a>
+      </div>
+    </div>
+    <p class="login-copyright">© <span id="current-year"></span> JUN AYOUNG</p>
+  </section>
+
+  <main class="desktop-screen" id="desktop-screen" aria-label="전아영의 바탕화면" hidden>
+    <div class="desktop-wallpaper" aria-hidden="true"><span class="wallpaper-orbit orbit-one"></span><span class="wallpaper-orbit orbit-two"></span><div class="wallpaper-wordmark">JUN<br>AYOUNG<span>✦</span></div></div>
+    <div class="desktop-topline"><span>JUN AYOUNG <span class="topline-divider">/</span> PERSONAL WORKSPACE</span><button id="lock-button" type="button" title="로그인 화면으로 돌아가기">잠금 ↗</button></div>
+    <nav class="desktop-shortcuts" id="desktop-shortcuts" aria-label="바탕화면 폴더와 프로그램"></nav>
+    <section class="pinned-work" aria-labelledby="pinned-heading"><h2 id="pinned-heading"><span>★</span> 주 작업 <span class="pinned-kind">STAGE DESIGN</span></h2><div class="pinned-files" id="pinned-files"></div></section>
+    <div class="desktop-tip">폴더나 파일을 클릭해서 열어보세요.</div>
+    <div class="window-layer" id="window-layer"></div>
+
+    <div class="start-menu" id="start-menu" hidden>
+      <div class="start-account"><span class="mini-avatar"><img class="avatar-art" src="./ui/images/avatar.png" alt=""></span><div><strong>JUN AYOUNG</strong><small>Portfolio workspace</small></div></div>
+      <div id="start-apps"></div>
+      <button class="start-lock" id="start-lock" type="button"><span aria-hidden="true">⏻</span> 로그인 화면으로</button>
+    </div>
+    <footer class="desktop-taskbar">
+      <button class="start-button" id="start-button" type="button" aria-expanded="false" aria-controls="start-menu"><img class="ui-icon" data-ui-icon="grid" src="./ui/icons/start.png" alt="" aria-hidden="true"><span>시작</span></button>
+      <button class="show-desktop" id="show-desktop" type="button" aria-label="열린 창을 모두 최소화하고 바탕화면 보기" title="바탕화면 보기">▱</button>
+      <div class="taskbar-apps" id="taskbar-apps" aria-label="열린 프로그램"></div>
+      <div class="desktop-clock"><span class="online-light" aria-hidden="true"></span><time id="desktop-clock"></time></div>
+    </footer>
+  </main>
+  <p class="desktop-status sr-only" id="desktop-status" role="status" aria-live="polite"></p>
+  <noscript><div class="noscript-desktop">JavaScript를 켜거나 <a href="./works.html">작업 목록</a>에서 둘러보세요.</div></noscript>
+</body>
+</html>

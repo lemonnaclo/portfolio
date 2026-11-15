@@ -1,0 +1,154 @@
+/* 디자인 교체는 이 파일과 ui/images/, ui/icons/만 수정하세요.
+   이미지 경로는 이 CSS 파일(ui/theme.css) 기준입니다.
+   투명 더미를 덮어쓰면 기존 디자인 위에 적용됩니다.
+   아래 기존 디자인 구역은 최종 작업 시 원하는 CSS로 바꿀 수 있습니다. */
+:root {
+  --ui-desktop-wallpaper: url('./images/wallpaper-desktop.png');
+  --ui-mobile-wallpaper: url('./images/wallpaper-mobile.png');
+  --ui-login-wallpaper: url('./images/login-background.png');
+  --ui-window-frame: url('./images/window-frame.png');
+  --ui-login-frame: url('./images/login-frame.png');
+  --ui-pinned-frame: url('./images/pinned-frame.png');
+  --ui-titlebar-active: url('./images/titlebar-active.png');
+  --ui-titlebar-inactive: url('./images/titlebar-inactive.png');
+  --ui-button-primary: url('./images/button-primary.png');
+  --ui-taskbar: url('./images/taskbar.png');
+  --ui-start-button: url('./images/start-button.png');
+  --ui-start-menu: url('./images/start-menu.png');
+  --ui-window-surface: url('./images/window-surface.png');
+  --ui-decoration-opacity: 1; /* 배경의 글자·원을 숨기려면 0 */
+  --ui-frame-slice: 12; /* 120x120 테두리 원본의 9-slice 값 */
+  --ui-frame-width: 10px;
+}
+
+/* Personal desktop: ink-blue workspace, glossy cobalt chrome, SCDream type. */
+.desktop-page{--desk-bg:#101527;--desk-panel:#161d32;--desk-chrome:#4358bb;--desk-line:#697cac;--desk-ink:#f5f6ff;--desk-muted:#b4bdd8;--desk-green:#bac7ff;font-family:SCDream,sans-serif;font-size:14px;letter-spacing:-.015em}
+.login-screen,.desktop-screen{background:radial-gradient(ellipse at 95% 5%,#4558ac70,transparent 52%),radial-gradient(ellipse at 3% 100%,#6a41914d,transparent 52%),#10172b}
+.login-screen:before,.desktop-wallpaper:before{background-image:none;background:linear-gradient(125deg,transparent 47%,#d0dcff04 47.1%,transparent 65%);opacity:1}
+.desktop-wallpaper:after,.login-wallpaper:after{content:'';position:absolute;width:42vw;height:42vw;min-width:290px;min-height:290px;right:-18vw;top:6vh;border-radius:50%;background:radial-gradient(circle at 28% 25%,#b9c8fb20,#7389df0a 45%,#748ad800 72%);box-shadow:inset 1px 1px 2px #d2dcff18;pointer-events:none}
+.wallpaper-orbit{border:1px solid #b9c8ff13;width:80vw;height:80vw;top:-30vw;right:-28vw;transform:none}.orbit-two{width:66vw;height:66vw;top:-23vw;right:-21vw}
+.wallpaper-wordmark{left:29%;top:20%;font-weight:600;font-size:clamp(72px,10.5vw,165px);color:#c4d1ff09;letter-spacing:-.065em;line-height:1.02}.wallpaper-wordmark>span{color:#b6b5ff1c;font-size:.65em;right:-65px;top:10px}
+.login-wallpaper>span{color:#cbd2ff06}
+.desktop-topline{left:32px;right:30px;top:20px;color:#c5ceed;font-size:11px;letter-spacing:.015em}.topline-divider{color:#7885ac}
+.desktop-topline button{border-color:#a6b8ee66;border-radius:6px;background:linear-gradient(#54699c55,#29375866);font-size:11px;color:#e0e7ff;padding:6px 11px;box-shadow:inset 0 1px #d9e3ff12}
+.desktop-topline button:hover{background:#6174b75c;color:#fff}
+.desktop-screen{padding:83px 28px 74px}
+.desktop-shortcuts{grid-template-rows:repeat(4,116px);grid-template-columns:repeat(2,112px);gap:6px 14px;width:240px}
+.desktop-shortcut{min-height:108px;max-height:116px;border-radius:6px;gap:8px;padding:8px 3px}
+.desktop-shortcut .ui-icon{width:59px;height:57px;filter:drop-shadow(0 4px 3px #03071866);transition:transform .17s ease,filter .17s ease}
+.desktop-shortcut:hover,.desktop-shortcut:focus-visible{background:linear-gradient(#adc2ff18,#9bafff0b);border-color:#b6c9ff55;box-shadow:inset 0 1px #e7eeff18}
+.desktop-shortcut:hover svg{transform:translateY(-3px);filter:drop-shadow(0 7px 5px #03071870)}
+.desktop-shortcut:active svg{transform:translateY(0)}
+.shortcut-label{font-size:12px;line-height:1.55;letter-spacing:-.025em;color:#f3f5ff;text-shadow:0 1px 3px #020716,0 2px 8px #020716}
+.desktop-tip{left:34px;bottom:79px;font-size:11px;color:#98a7cc}
+.pinned-work{right:4vw;bottom:15vh;width:clamp(420px,43vw,670px);padding:0 19px 19px;border:1px solid #a2b5ff4d;border-radius:11px;background:linear-gradient(140deg,#7b94df13,#313f6a20);box-shadow:inset 0 1px #d0dcff24,0 15px 30px #02071626;backdrop-filter:blur(10px)}
+.pinned-work h2{height:48px;margin:0 -19px 20px;padding:0 18px;border-bottom:1px solid #a2b5ff29;font-size:12px;letter-spacing:0;font-weight:500;color:#e0e5ff;background:linear-gradient(#b5c6ff0f,#8196df05);border-radius:10px 10px 0 0}
+.pinned-work h2>span:first-child{color:#ffdf89;font-size:16px}.pinned-kind{color:#a2b3e3;font-size:9px;letter-spacing:.08em}
+.pinned-files{gap:17px}.pinned-file{padding:3px 4px 5px;border-radius:5px}.pinned-file:hover{background:#becaff12;border-color:#b6c6ff55;transform:translateY(-2px)}
+.pinned-thumbnail{padding:6px 6px 15px;border:1px solid #e2e7ff;border-radius:4px;background:linear-gradient(145deg,#f1f3ff,#b9c6e6);box-shadow:2px 4px 0 #03081c38,0 6px 10px #03081c38;margin-bottom:13px;transform:rotate(-2deg)}
+.pinned-file:nth-child(2) .pinned-thumbnail{transform:rotate(2deg)}.pinned-file:nth-child(3) .pinned-thumbnail{transform:rotate(-1deg)}
+.pinned-thumbnail:after{color:#53648d;font-size:6px;font-weight:600}.pinned-thumbnail img{height:85px;border:1px solid #0d173324;filter:none}
+.pinned-file strong{color:#f0f2ff;font-size:12px;font-weight:400;letter-spacing:-.03em}.pinned-file small{font-size:10px;color:#a7b7df}
+/* Glossy window title bars give the shell its early-web character. */
+.desk-window{padding:5px;background:linear-gradient(100deg,#6a80c9,#364f9e);border:1px solid #c1ceff;border-radius:10px 10px 6px 6px;box-shadow:inset 1px 1px #e7ecff8c,inset -1px -1px #111d55,0 22px 65px #0007}
+.desk-window[data-focused=false]{filter:saturate(.7)}
+.window-titlebar{height:37px;border:1px solid #324eac;border-radius:6px 6px 3px 3px;background:linear-gradient(#7298ef 0%,#4d70d8 10%,#3560cd 48%,#2c4bac 52%,#4566c7 92%,#708ddb);box-shadow:inset 0 1px #cbdcffbd,0 1px #152759;gap:9px;padding:3px 4px 3px 9px}
+.window-titlebar h2{font-size:12px;font-weight:500;line-height:1.5;text-shadow:0 1px 2px #192866;color:#fff}
+.window-titlebar>.ui-icon{width:22px;height:23px}
+.window-controls{gap:5px}.window-control{width:27px;height:27px;border-radius:5px;border-color:#dde6ff;background:linear-gradient(135deg,#b4c8ff,#638bdf 48%,#4269bb 51%,#6b90e0);box-shadow:inset 1px 1px #fff9,inset -1px -1px #284797b3;color:#fff;text-shadow:0 1px #3657a0;font-size:19px;font-weight:400}
+.window-control.close{background:linear-gradient(135deg,#ffbdca,#ec7eaa 47%,#c85a91 51%,#de81aa);box-shadow:inset 1px 1px #ffe6f5ad,inset -1px -1px #91365c9c}
+.window-control:hover{filter:brightness(1.15)}
+.desk-window[data-focused=false] .window-titlebar{background:linear-gradient(#7887b9,#55658d);border-color:#7a88af}
+.window-body{background:#111725;border-color:#152851;border-radius:2px;margin-top:5px;scrollbar-color:#8295c4 #1b2540}
+.frame-loading{background:#111725;color:#c4ceec;font-size:13px}.frame-loading span{border-color:#8494c44d;border-top-color:#bac9ff;margin:0 auto 14px}
+.frame-fallback{background:#1f2b4bd9;color:#c5d2f1;font-size:9px;border:1px solid #9db1ed40;padding:4px 8px;border-radius:4px}
+.explorer-toolbar{padding:11px 13px;background:linear-gradient(#d7e0f1,#c2cde4);border-bottom:1px solid #7488bc;gap:12px}
+.explorer-home{height:32px;min-width:32px;border:1px solid #8096be;border-radius:4px;background:linear-gradient(#f9fbff,#d6e0f2);color:#354b77;box-shadow:inset 0 1px #fff;font-size:19px}
+.explorer-path{color:#354668;font-size:12px}.explorer-path span{color:#7b8bae}
+.explorer-search{font-size:12px;min-height:32px;width:190px;border-radius:4px;background:#f6f8ff;border-color:#899dc8;color:#25375d;box-shadow:inset 0 1px 3px #3f56851c}
+.explorer-search::placeholder{color:#687da4}
+.explorer-layout{grid-template-columns:175px minmax(0,1fr)}
+.explorer-sidebar{background:linear-gradient(135deg,#293660,#1a2645);border-color:#7890ca40;padding:22px 10px}
+.sidebar-label{font-size:9px;color:#9caedb;padding-bottom:13px}.sidebar-folder{font-size:11px;padding:10px 7px;color:#d5dffb;gap:9px;border-radius:4px}.sidebar-folder .ui-icon{width:24px;height:23px}
+.sidebar-folder:hover{background:#a6bbff12}.sidebar-folder[aria-pressed=true]{color:#fff;background:linear-gradient(#7795e44d,#4c6bba55);border-color:#a5bcff70;box-shadow:inset 0 1px #bbcbff26}
+.explorer-main{padding:23px;background:radial-gradient(ellipse at 90% 0%,#29335a30,transparent 70%),#12182a;scrollbar-color:#7f91c3 #202b47}
+.explorer-heading h3{font-size:20px;letter-spacing:-.04em;color:#f0f3ff}.explorer-heading p{font-size:9px;color:#acbce6}
+.project-files{gap:23px 18px}.project-file{padding:8px;border-radius:5px;color:#edf1ff}.project-file:hover,.project-file:focus-visible{background:#9db9ff14;border-color:#a5beff5c}
+.project-file-thumbnail{background:linear-gradient(145deg,#f1f4ff,#b9c6e3);border-color:#e5ecff;border-radius:4px;padding:6px 6px 14px;box-shadow:2px 3px #030a274f,0 5px 10px #02091840}
+.project-file-thumbnail:after{color:#4f648c;font-size:6px;font-weight:500}.project-file-thumbnail img{background:#16203a;border:1px solid #6d7da733}
+.project-file strong{font-size:13px;line-height:1.7;font-weight:400;color:#eef1ff}.project-file small{font-size:11px;color:#9caed7}
+.file-video-placeholder{background:radial-gradient(ellipse at 30% 0%,#5968b8,#182542 80%);color:#e0e6ff}.file-video-placeholder b{font-size:32px}.file-video-placeholder>span{font-size:10px}
+.window-status{background:linear-gradient(#d1d9ee,#bdcae4);color:#41577c;border-color:#879bc5;font-size:10px;padding:6px 12px}
+.folder-empty{font-size:13px;color:#b6c3e7}
+/* Login is a single account tile, not a copied operating-system screen. */
+.login-panel{width:min(100%,465px);padding:5px;border-radius:13px;background:linear-gradient(135deg,#879bda,#3a4f9a);border:1px solid #becdff;box-shadow:inset 1px 1px #e2eaff88,inset -1px -1px #152151,0 28px 100px #02051c66}
+.login-titlebar{min-height:37px;padding:6px 12px;border-radius:8px 8px 3px 3px;background:linear-gradient(#7795ed,#4269d0 48%,#3554b6 51%,#5b7cd5);color:#fff;box-shadow:inset 0 1px #d2e0ff99;font-size:11px;letter-spacing:.01em}.login-titlebar .ui-icon{color:#e5ebff}.titlebar-detail{font-size:9px;opacity:.85}
+.login-content{padding:37px 40px 26px;border-radius:3px 3px 8px 8px;border-color:#1a2851;background:radial-gradient(ellipse at 50% 0%,#34366a66,transparent 66%),#141a30}
+.account-avatar{width:78px;height:78px;margin-bottom:23px;border:1px solid #e1e9ff;border-radius:20px;background:linear-gradient(145deg,#e8edff,#abbcf4);box-shadow:inset 0 2px #fff9,0 7px 20px #02051d55;color:#3d4b86;font-size:27px;font-weight:500}
+.account-avatar>span{width:27px;height:27px;right:-6px;bottom:-5px;background:#ffc5dd;border:3px solid #1b213b;color:#7c497c;font-size:17px}
+.login-welcome{font-size:12px;color:#b5c1e3}.login-content h1{font-size:32px;letter-spacing:-.055em;font-weight:600;color:#f5f6ff}
+.login-description{color:#b9c4e3;font-size:12px;line-height:1.9;margin:16px auto 27px;max-width:310px}
+.login-button{min-height:47px;border:1px solid #cbd6ff;border-radius:6px;background:linear-gradient(#c6d5ff,#93adef 48%,#7e99e0 51%,#a7bcef);color:#203b76;box-shadow:inset 0 1px #fff9,inset 0 -1px #6b81b9;font-size:14px;padding:11px 18px}
+.login-note{font-size:10px;color:#8e9fc9;margin-top:13px}.classic-link{font-size:11px;color:#b4c4ed;border-color:#6c7ead;margin-top:21px}.login-copyright{font-size:10px;color:#91a2ce;letter-spacing:.06em}
+.contact-program,.readme-program{background:radial-gradient(ellipse at top right,#7d74ce20,transparent 65%),#151d32;color:#dbe3fa;padding:30px}
+.contact-program .mail-large{color:#ffd395}.contact-program h3,.readme-program h3{color:#f6f7ff;font-size:28px;font-weight:500}.contact-program>p{font-size:12px;color:#acbce2}.contact-email-row{border-color:#7088c26b}.contact-program .address-link{font-size:clamp(18px,2vw,24px);color:#e7eaff}.contact-program .contact-links{font-size:13px;color:#bdcdf6;gap:15px 25px}.contact-program .contact-links a{border-color:#7089ca80}.contact-copy-status{color:#f3c6e5;font-size:11px}
+.retro-button{font-size:12px;min-height:35px;border-radius:5px;border-color:#b9cbff;background:linear-gradient(#dce5ff,#aabdeb);box-shadow:inset 0 1px #fff;color:#304a82}
+.readme-program{font-size:13px}.readme-program small{font-size:12px;color:#a9b9df}.readme-program ul{font-size:12px;color:#b6c5e8}
+/* Taskbar and launcher use the same blue glass finish as the windows. */
+.desktop-taskbar{height:53px;gap:9px;padding:6px 10px;border-top:1px solid #bdceff;background:linear-gradient(#6585d5 0%,#3f62b7 10%,#294a9a 48%,#26438d 50%,#3656a1);box-shadow:inset 0 1px #d8e3ff47,0 -4px 15px #050c2926}
+.start-button{height:38px;border:1px solid #c6d6c0;border-radius:7px 7px 13px 7px;background:linear-gradient(#c7edd0,#92c8a6 48%,#72ac8e 51%,#a0d1b1);box-shadow:inset 0 1px #f1fff1b0,inset -1px -1px #386d6380;color:#244e49;text-shadow:0 1px #e8fff566;font-size:13px;padding:0 16px}
+.show-desktop{border-color:#a9c2ff70;border-radius:4px;background:linear-gradient(#a7c0fa38,#4b75c338);color:#e9efff}
+.taskbar-app{font-size:11px;border:1px solid #b1c8ff8f;border-radius:5px;background:linear-gradient(#7fa0e47a,#4b71bf70);box-shadow:inset 0 1px #d4e3ff38;color:#f6f8ff;min-width:95px}
+.taskbar-app[aria-pressed=true]{background:linear-gradient(#263f8c,#4568b5);box-shadow:inset 1px 1px #172e6f,inset -1px -1px #6d8cca}
+.desktop-clock{border:1px solid #b6ceff70;background:linear-gradient(#506fba,#3a60a8);box-shadow:inset 1px 1px #162e7d66;border-radius:5px;color:#f6f8ff;font-size:11px;min-width:93px}.online-light{background:#cff3cd;box-shadow:0 0 6px #beffcf66}
+.start-menu{width:288px;bottom:59px;border:1px solid #bdd0ff;border-radius:8px;padding:5px;background:linear-gradient(135deg,#536fb4,#344b8b);box-shadow:inset 1px 1px #d6e0ff6b,6px 12px 40px #0006}
+.start-account{background:linear-gradient(110deg,#304e9d,#6a71b2);border-color:#a6bafb80;border-radius:5px 5px 0 0;color:#f4f6ff;padding:17px 13px}.mini-avatar{color:#445796;background:linear-gradient(#e4ebff,#afc2f4);border:1px solid #d3e1ff;border-radius:9px;width:42px;height:42px}.start-account strong{font-size:13px}.start-account small{font-size:10px;color:#c5d0ef}
+.start-app{font-size:12px;color:#f0f3ff;padding:10px 14px;min-height:45px}.start-app:hover{background:#afc8ff26;border-color:#c0d1ff5c}.start-app .ui-icon{width:30px;height:28px}
+.start-lock{background:#20386f80;border-color:#adc4ff66;color:#e1e9ff;font-size:12px;min-height:44px;border-radius:0 0 4px 4px}
+.desktop-page button:focus-visible,.desktop-page a:focus-visible,.desktop-page input:focus-visible{outline-color:#f6bde6;outline-width:2px}
+@media(min-width:1600px){.desktop-shortcuts{grid-template-rows:repeat(4,130px);grid-template-columns:repeat(2,127px)}.desktop-shortcut{max-height:128px}.desktop-shortcut .ui-icon{width:66px;height:62px}.shortcut-label{font-size:13px}.pinned-thumbnail img{height:112px}}
+@media(max-width:1000px) and (min-width:701px){.desktop-shortcuts{grid-template-columns:repeat(2,100px);column-gap:8px;width:210px}.pinned-work{min-width:350px;width:44vw;right:3vw;bottom:20vh;padding:0 13px 16px}.pinned-work h2{margin-left:-13px;margin-right:-13px;padding:0 14px}.pinned-files{gap:9px}.pinned-thumbnail img{height:62px}.pinned-file strong{font-size:11px}.pinned-file small{font-size:9px}}
+@media(max-width:700px){
+ .login-panel{max-width:400px;border-radius:11px}.login-titlebar{font-size:10px;min-height:35px}.login-content{padding:29px 24px 24px}.login-content h1{font-size:30px}.login-description{font-size:12px;max-width:270px}.login-welcome{font-size:11px}.login-note{font-size:10px}.login-copyright{font-size:9px}.account-avatar{width:70px;height:70px;font-size:25px}.login-button{min-height:47px}.classic-link{font-size:11px;margin-top:20px}
+ .desktop-screen{padding:61px 14px 76px}.desktop-topline{left:17px;right:14px;top:14px;font-size:9px;letter-spacing:0}.desktop-topline>span{font-size:9px;max-width:75%}.desktop-topline button{font-size:10px;padding:5px 7px;min-height:30px}.topline-divider{margin:0 5px}
+ .desktop-shortcuts{grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:none;grid-auto-flow:row;width:100%;gap:12px 3px}.desktop-shortcut{min-height:96px;max-height:none;padding:6px 0;gap:7px}.desktop-shortcut .ui-icon{width:50px;height:49px}.shortcut-label{font-size:10px;line-height:1.65;letter-spacing:-.04em}
+ .pinned-work{position:relative;width:100%;right:auto;bottom:auto;min-width:0;margin-top:27px;padding:0 11px 15px;border-radius:9px}.pinned-work h2{height:43px;padding:0 12px;margin:0 -11px 16px;font-size:11px;border-radius:9px 9px 0 0}.pinned-kind{font-size:8px}.pinned-files{gap:8px}.pinned-thumbnail{padding:4px 4px 12px;margin-bottom:12px}.pinned-thumbnail img{height:57px}.pinned-file{padding:2px}.pinned-file strong{font-size:10px;line-height:1.8}.pinned-file small{font-size:9px}.desktop-tip{left:auto;bottom:auto;position:relative;font-size:10px;margin:23px 2px 12px;color:#a2b2d8}.wallpaper-wordmark{left:10%;top:28%;font-size:23vw}
+ .desk-window{border-radius:8px 8px 5px 5px;padding:4px}.window-titlebar{height:40px;padding:4px 4px 4px 7px;border-radius:5px}.window-titlebar h2{font-size:12px}.window-control{width:29px;height:29px;font-size:20px}.window-titlebar>.ui-icon{width:22px;height:22px}.window-controls{gap:5px}.window-body{margin-top:4px}
+ .explorer-toolbar{padding:9px;gap:8px}.explorer-home{width:32px;height:32px}.explorer-path{font-size:11px}.explorer-search{width:100%;font-size:16px;min-height:39px;padding:7px 10px}.explorer-sidebar{padding:8px;gap:5px;min-height:51px}.sidebar-folder{font-size:10px;padding:7px 6px;gap:5px;min-height:35px}.sidebar-folder .ui-icon{width:20px;height:20px}.explorer-main{padding:16px 12px}.explorer-heading h3{font-size:19px}.explorer-heading p{font-size:8px}.project-files{gap:20px 10px}.project-file{padding:4px}.project-file strong{font-size:12px}.project-file small{font-size:10px}.project-file-thumbnail{padding:4px 4px 12px}.window-status{font-size:9px;padding:6px 9px}.frame-fallback{font-size:8px;bottom:6px}
+ .desktop-taskbar{height:53px;padding:5px 6px;gap:6px}.start-button{height:39px;font-size:12px;padding:0 12px}.taskbar-app{min-width:42px;flex-basis:106px;font-size:10px;padding:5px 7px}.desktop-clock{min-width:66px;font-size:10px;padding:0 7px}.start-menu{bottom:59px;left:6px;width:278px}.contact-program,.readme-program{padding:25px 20px}.contact-program .address-link{font-size:18px}.contact-program .contact-links{font-size:13px}.retro-button{font-size:12px;min-height:41px}
+}
+@media(max-width:360px){.desktop-shortcuts{grid-template-columns:repeat(3,minmax(0,1fr))}.shortcut-label{font-size:10px}.pinned-thumbnail img{height:47px}.desktop-topline>span{font-size:8px}.pinned-file strong{font-size:10px}}
+@media(max-height:650px) and (min-width:701px){.desktop-screen{padding-top:55px}.desktop-shortcuts{grid-template-rows:repeat(4,99px)}.desktop-shortcut{min-height:89px;max-height:97px}.desktop-shortcut .ui-icon{width:49px;height:47px}.pinned-work{bottom:17vh}.desktop-tip{bottom:69px}.login-content{padding-top:23px;padding-bottom:20px}.account-avatar{width:58px;height:58px;margin-bottom:15px}.login-description{margin-bottom:19px}.classic-link{margin-top:14px}}
+@media(prefers-reduced-motion:reduce){.desktop-shortcut:hover svg,.pinned-file:hover{transform:none}}
+
+
+/* === 교체용 이미지 연결부: 동작 코드를 수정할 필요가 없습니다. === */
+.ui-icon{display:block;object-fit:contain;flex-shrink:0;user-select:none}
+.avatar-art{width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block}
+.account-avatar .avatar-art{padding:8px}.mini-avatar .avatar-art{padding:3px}
+.desktop-wallpaper,.login-wallpaper{background-position:center;background-size:cover;background-repeat:no-repeat}
+.desktop-wallpaper{background-image:var(--ui-desktop-wallpaper)}
+.login-wallpaper{background-image:var(--ui-login-wallpaper)}
+.wallpaper-wordmark,.wallpaper-orbit,.desktop-wallpaper:before,.desktop-wallpaper:after,.login-wallpaper>span,.login-wallpaper:after{opacity:var(--ui-decoration-opacity)}
+.desk-window:before,.login-panel:before,.pinned-work:before{content:'';position:absolute;inset:0;z-index:10;border:var(--ui-frame-width) solid transparent;border-image-slice:var(--ui-frame-slice);border-image-repeat:stretch;pointer-events:none}
+.desk-window:before{border-image-source:var(--ui-window-frame)}
+.login-panel:before{border-image-source:var(--ui-login-frame)}
+.pinned-work:before{border-image-source:var(--ui-pinned-frame)}
+.window-titlebar,.login-titlebar{position:relative;isolation:isolate}
+.window-titlebar:before,.login-titlebar:before{content:'';position:absolute;inset:0;background:var(--ui-titlebar-active) center/100% 100% no-repeat;border-radius:inherit;z-index:-1;pointer-events:none}
+.desk-window[data-focused=false] .window-titlebar:before{background-image:var(--ui-titlebar-inactive)}
+.login-button,.retro-button,.start-button,.explorer-main,.contact-program,.readme-program{position:relative;isolation:isolate}
+.desktop-taskbar,.start-menu{isolation:isolate}
+.login-button:before,.retro-button:before,.desktop-taskbar:before,.start-button:before,.start-menu:before,.explorer-main:before,.contact-program:before,.readme-program:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;background-position:center;background-size:100% 100%;background-repeat:no-repeat}
+.login-button:before,.retro-button:before{background-image:var(--ui-button-primary)}
+.desktop-taskbar:before{background-image:var(--ui-taskbar)}
+.start-button:before{background-image:var(--ui-start-button)}
+.start-menu:before{background-image:var(--ui-start-menu)}
+.explorer-main:before,.contact-program:before,.readme-program:before{background-image:var(--ui-window-surface)}
+.window-control.minimize,.window-control.maximize,.window-control.close{background-position:center;background-size:100% 100%;background-repeat:no-repeat;color:transparent;text-shadow:none;border-color:transparent;box-shadow:none}
+.window-control.minimize{background-image:url('./images/control-minimize.png')}
+.window-control.maximize{background-image:url('./images/control-maximize.png')}
+.window-control.close{background-image:url('./images/control-close.png')}
+@media(max-width:700px){.desktop-wallpaper{background-image:var(--ui-mobile-wallpaper)}}
+
+.login-titlebar .ui-icon{filter:brightness(0) invert(1)}

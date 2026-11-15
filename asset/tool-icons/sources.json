@@ -1,0 +1,77 @@
+[
+  {
+    "tool": "SketchUp",
+    "file": "sketchup.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/simple-icons.json#sketchup"
+  },
+  {
+    "tool": "Rhino",
+    "file": "rhino.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/simple-icons.json#rhinoceros"
+  },
+  {
+    "tool": "AutoCAD",
+    "file": "autocad.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/simple-icons.json#autocad"
+  },
+  {
+    "tool": "Maya",
+    "file": "maya.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/simple-icons.json#autodeskmaya"
+  },
+  {
+    "tool": "Blender",
+    "file": "blender.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/logos.json#blender"
+  },
+  {
+    "tool": "Unreal Engine 5",
+    "file": "unreal.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/simple-icons.json#unrealengine"
+  },
+  {
+    "tool": "Photoshop",
+    "file": "photoshop.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/logos.json#adobe-photoshop"
+  },
+  {
+    "tool": "InDesign",
+    "file": "indesign.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/logos.json#adobe-indesign"
+  },
+  {
+    "tool": "After Effects",
+    "file": "after-effects.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/logos.json#adobe-after-effects"
+  },
+  {
+    "tool": "ChatGPT",
+    "file": "chatgpt.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/simple-icons.json#openai"
+  },
+  {
+    "tool": "Claude",
+    "file": "claude.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/logos.json#claude-icon"
+  },
+  {
+    "tool": "Unity",
+    "file": "unity.svg",
+    "source": "https://github.com/iconify/icon-sets/blob/master/json/simple-icons.json#unity"
+  },
+  {
+    "tool": "Enscape",
+    "file": "enscape.svg",
+    "source": "Local product-initial badge"
+  },
+  {
+    "tool": "V-Ray",
+    "file": "vray.svg",
+    "source": "Local product-initial badge"
+  },
+  {
+    "tool": "Substance Painter",
+    "file": "substance-painter.svg",
+    "source": "Local product-initial badge"
+  }
+]

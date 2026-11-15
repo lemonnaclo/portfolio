@@ -1,0 +1,30 @@
+{
+  "id": "production-cave-raider",
+  "date": null,
+  "sourceFilesStatus": "Original 1920x1080 H.264 MP4 copied from the supplied src folder.",
+  "title": "Unreal Engine 5 [CAVE RAIDER]",
+  "inventoryStatus": "original-video-copied",
+  "sourceRoute": null,
+  "description": "Unreal Engine 5 [CAVE RAIDER]",
+  "category": "Production Design",
+  "media": [
+    {
+      "type": "video",
+      "path": "video/caveraider-original.mp4",
+      "mimeType": "video/mp4",
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 69.5277916667,
+      "source": "User-provided original",
+      "originalSource": "caveraider.mp4",
+      "sourceSha256": "83195b3e4e7d476e1703af7b5cbca73213352509d052fde9e740cf98e56fc811"
+    },
+    {
+      "type": "video-embed",
+      "provider": "Adobe Creative Cloud Player",
+      "embedId": "UAiAnub7osi"
+    }
+  ],
+  "role": "Unreal Engine 5 시네마틱 영상 제작",
+  "detail": "2024-1"
+}

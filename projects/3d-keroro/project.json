@@ -1,0 +1,29 @@
+{
+  "id": "3d-keroro",
+  "date": null,
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified.",
+  "title": "[3d modeling] Keroro",
+  "inventoryStatus": "renditions-copied",
+  "sourceRoute": null,
+  "description": "Maya, Photoshop, Substance Painter 3D, V-Ray",
+  "category": "3D",
+  "media": [
+    {
+      "type": "image",
+      "path": "keroro-01.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "keroro-02.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "keroro-03.png",
+      "source": "Adobe Portfolio CDN rendition"
+    }
+  ],
+  "role": "케로로 중사 · 개인 작업",
+  "detail": "Modeling 15h / Texture 3h / Lighting 6h"
+}

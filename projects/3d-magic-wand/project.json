@@ -1,0 +1,44 @@
+{
+  "id": "3d-magic-wand",
+  "date": null,
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified.",
+  "title": "[3d modeling] magic wand",
+  "inventoryStatus": "renditions-copied",
+  "sourceRoute": null,
+  "description": "Maya, Photoshop, Substance Painter 3D, V-Ray",
+  "category": "3D",
+  "media": [
+    {
+      "type": "image",
+      "path": "b1b2fcc6-d81c-4647-9c23-1fcc02517887_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "e8a3cc99-7a76-4cee-afb5-a35886352d4a_rw_1920.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "f50017db-7df3-41d2-a81e-b80962caef71_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "fba097ce-da91-48be-8e1a-34d1363b3431_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "magic-wand-01.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "magic-wand-02.png",
+      "source": "Adobe Portfolio CDN rendition"
+    }
+  ],
+  "role": "카드캡터체리 요술봉 · 개인 작업",
+  "detail": "Modeling 4h / Texture 0.5h / Lighting 1h"
+}

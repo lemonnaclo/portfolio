@@ -1,0 +1,44 @@
+{
+  "id": "vmd-oliveyoung-05",
+  "date": null,
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified.",
+  "title": "[CJ 올리브영] VMD",
+  "inventoryStatus": "renditions-copied",
+  "sourceRoute": null,
+  "description": "VMD 프로젝트",
+  "category": "VMD",
+  "media": [
+    {
+      "type": "image",
+      "path": "1f85e0af-013d-4626-98ec-5d10ff2020b5_rw_1200.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "5d4539b0-9648-473b-9c65-126706d41a4a_rw_1200.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "74b9e99e-5c7a-498d-a3d1-06bfa372b067_rw_1200.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "a0673a7f-b5a0-468a-af5e-a1dfd2bfa3f5_rw_1200.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "d7d1f76b-8075-4946-bec5-6bf89a2f2f22_rw_1200.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "d902c486-d030-432a-a408-496f88554226_rw_1200.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    }
+  ],
+  "role": "CJ 올리브영 미디어커머스팀 · 임시직/프리랜서",
+  "detail": "올영TV [왜영 EP.5]"
+}

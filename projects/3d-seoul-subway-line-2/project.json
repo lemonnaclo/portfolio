@@ -1,0 +1,45 @@
+{
+  "id": "3d-seoul-subway-line-2",
+  "date": null,
+  "title": "[3d modeling] Seoul Subway Line 2",
+  "category": "3D",
+  "role": "지하철 2호선 · 개인 작업",
+  "description": "Maya, Photoshop, Substance Painter 3D, V-Ray",
+  "detail": "Modeling 15h / Texture 6h / Lighting 3h",
+  "references": [
+    {
+      "url": "https://www.artstation.com/artwork/QX9k24",
+      "label": "ArtStation"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "path": "subway-01.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "subway-02.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "subway-03.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "subway-04.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "subway-05.png",
+      "source": "Adobe Portfolio CDN rendition"
+    }
+  ],
+  "sourceRoute": null,
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified.",
+  "inventoryStatus": "renditions-copied"
+}

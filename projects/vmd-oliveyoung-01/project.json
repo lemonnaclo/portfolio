@@ -1,0 +1,89 @@
+{
+  "id": "vmd-oliveyoung-01",
+  "date": null,
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified.",
+  "title": "[CJ 올리브영] VMD",
+  "inventoryStatus": "originals-upgraded",
+  "sourceRoute": null,
+  "description": "2022.07 - 2022.07; 2023.07 - 2023.12",
+  "category": "VMD",
+  "media": [
+    {
+      "type": "image",
+      "path": "high-res/original-01-6b4ee6b101.jpg",
+      "source": "User-provided original",
+      "displayPath": "web/original-01-6b4ee6b101.webp",
+      "width": 4032,
+      "height": 3024,
+      "originalSource": "vmd/KakaoTalk_20250112_223024990_14.jpg",
+      "sourceSha256": "6b4ee6b10193fe4bd207ec9c9fd01db44aaa4ddb1459577490e69eba274e700e"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-02-856c9574ee.jpg",
+      "source": "User-provided original",
+      "displayPath": "web/original-02-856c9574ee.webp",
+      "width": 4032,
+      "height": 2448,
+      "originalSource": "vmd/KakaoTalk_20250112_223024990_131.jpg",
+      "sourceSha256": "856c9574ee9239e3ac4067fdc88a769a53377e7ff70be994e3cc0f3013d2e7f9"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-03-f977375d81.jpg",
+      "source": "User-provided original",
+      "displayPath": "web/original-03-f977375d81.webp",
+      "width": 4032,
+      "height": 3024,
+      "originalSource": "vmd/KakaoTalk_20250112_223024990_13.jpg",
+      "sourceSha256": "f977375d81016ee72a5604ec6c2b3317a332ccb42d0b8fb0ecde3c6ac89794f9"
+    },
+    {
+      "type": "image",
+      "path": "9c37e5ce-3aa9-40cb-80a0-d8a8ae398d57_rw_1920.jpg",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-04-24d14416d5.jpg",
+      "source": "User-provided original",
+      "displayPath": "web/original-04-24d14416d5.webp",
+      "width": 4032,
+      "height": 3024,
+      "originalSource": "vmd/KakaoTalk_20250112_223024990_16.jpg",
+      "sourceSha256": "24d14416d5645955d3b297a62ef4755da019b450e4e8cee3cce927f6aa64000f"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-05-b59b8d7131.jpg",
+      "source": "User-provided original",
+      "displayPath": "web/original-05-b59b8d7131.webp",
+      "width": 4032,
+      "height": 3024,
+      "originalSource": "vmd/KakaoTalk_20250112_223024990_18.jpg",
+      "sourceSha256": "b59b8d713175da001f3906e289cb6577827379765a70c5ee7479d303d2c4769d"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-06-ed4d5288e6.png",
+      "source": "User-provided original",
+      "displayPath": "web/original-06-ed4d5288e6.webp",
+      "width": 3508,
+      "height": 2031,
+      "originalSource": "vmd/s1.png",
+      "sourceSha256": "ed4d5288e6bb4a6058d271a89a61465dfae55227a03494759cda2412edc53ab8"
+    },
+    {
+      "type": "image",
+      "path": "high-res/original-07-1f74e1d764.jpg",
+      "source": "User-provided original",
+      "displayPath": "web/original-07-1f74e1d764.webp",
+      "width": 1890,
+      "height": 706,
+      "originalSource": "vmd/슬라이드11.JPG",
+      "sourceSha256": "1f74e1d7648ee161400408cc7860a43e4274ea4b609b55ce8f7e13358e4ac6ec"
+    }
+  ],
+  "role": "CJ 올리브영 미디어커머스팀 · 임시직/프리랜서",
+  "detail": "올영TV [훈남생정 EP.8]"
+}

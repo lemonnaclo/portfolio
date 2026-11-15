@@ -1,0 +1,55 @@
+{
+  "id": "3d-itzy-untouchable",
+  "detail": "뮤직비디오 FX 효과가 들어갈 에셋(다리 부분) 제작",
+  "date": "2023.12 - 2023.12",
+  "sourceFilesStatus": "Available Adobe Portfolio web renditions copied; original source files not verified.",
+  "title": "ITZY [Untouchable] M/V 에셋 모델링",
+  "inventoryStatus": "renditions-copied",
+  "role": "호크아이스튜디오 · 임시직/프리랜서",
+  "sourceRoute": "copy-of-vr",
+  "additionalText": "ITZY [ UNTOUCHABLE ] MV",
+  "description": "ITZY [ UNTOUCHABLE ] 뮤직비디오 에셋 모델링 참여",
+  "category": "3D",
+  "media": [
+    {
+      "type": "image",
+      "path": "2a4eb65c-c7a8-4d9b-965e-cfa0ff8f88f3_rw_1920.png",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "8e5ecc24-b5f4-48b9-b116-4d2e29000926_rw_1920.PNG",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "a8aac956-a476-4bc1-a64c-c7daa103f177_rw_1920.PNG",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "asset-modeling-01.PNG",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "asset-modeling-02.PNG",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "image",
+      "path": "dba8e6af-36eb-4efc-9be7-e26b1467c60c_rw_1920.PNG",
+      "source": "Adobe Portfolio CDN rendition"
+    },
+    {
+      "type": "video-embed",
+      "provider": "Adobe Creative Cloud Player",
+      "embedId": "ETAZ9CCWuHR"
+    },
+    {
+      "type": "video-embed",
+      "provider": "Adobe Creative Cloud Player",
+      "embedId": "6ubiugHasqm"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 62" width="128" height="128"><defs>
+      <linearGradient id="folder-face" x1="0" y1="0" x2="0.3" y2="1"><stop stop-color="#fff3c1"/><stop offset=".48" stop-color="#ffda76"/><stop offset=".51" stop-color="#f5bf50"/><stop offset="1" stop-color="#ffe49b"/></linearGradient>
+      <linearGradient id="icon-paper" x2=".7" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#c5d7fa"/></linearGradient>
+      <linearGradient id="icon-glass" x2=".6" y2="1"><stop stop-color="#f0f7ff"/><stop offset=".4" stop-color="#b8d9ff"/><stop offset="1" stop-color="#7e9edb"/></linearGradient>
+    </defs><g color="#849fdb"><path d="M9 3h27l12 12v44H9z" fill="url(#icon-paper)" stroke="#788eb4" stroke-width="1.5"/><path d="M36 3v13h12" fill="#b6c9f6" stroke="#8496bc" stroke-width="1.3"/><path d="M16 26h24M16 32h24M16 38h24M16 44h17" stroke="currentColor" stroke-width="2.3"/><path d="M16 50h12" stroke="#a7b6d7" stroke-width="2"/></g></svg>

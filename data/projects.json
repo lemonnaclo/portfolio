@@ -1,0 +1,154 @@
+[
+  {
+    "id": "3d-itzy-untouchable",
+    "category": "3D",
+    "title": "ITZY [Untouchable] M/V 에셋 모델링",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-vr"
+  },
+  {
+    "id": "3d-vr-ac-simulation",
+    "category": "3D",
+    "title": "VR 교육컨텐츠 [에어컨 설비 시뮬레이션] 모델링",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "202312-202401"
+  },
+  {
+    "id": "3d-seoul-subway-line-2",
+    "category": "3D",
+    "title": "[3d modeling] Seoul Subway Line 2",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-vr-1"
+  },
+  {
+    "id": "3d-1960-elementary-classroom",
+    "category": "3D",
+    "title": "[3d modeling] 1960 Korea elementary school classroom",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-3d-modeling-seoul-subway-line-2-1"
+  },
+  {
+    "id": "3d-food-truck",
+    "category": "3D",
+    "title": "[3d modeling] food-truck",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-3d-modeling-1960-korea-elementary-school-classroom-1"
+  },
+  {
+    "id": "3d-railroad-crossing",
+    "category": "3D",
+    "title": "[3d modeling] Railroad Crossing Scene",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-3d-modeling-1960-korea-elementary-school-classroom"
+  },
+  {
+    "id": "3d-oni-mask",
+    "category": "3D",
+    "title": "[3d modeling] Oni Mask",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-3d-modeling-seoul-subway-line-2"
+  },
+  {
+    "id": "3d-keroro",
+    "category": "3D",
+    "title": "[3d modeling] Keroro",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-3d-modeling-food-truck"
+  },
+  {
+    "id": "3d-magic-wand",
+    "category": "3D",
+    "title": "[3d modeling] magic wand",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-3d-modeling-seoul-subway-line-2-2"
+  },
+  {
+    "id": "3d-lego-scene",
+    "category": "3D",
+    "title": "[3d modeling] lego scene",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-copy-of-3d-modeling-food-truck"
+  },
+  {
+    "id": "3d-assets",
+    "category": "3D",
+    "title": "[3d modeling] assets",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-3d-modeling-lego-scene"
+  },
+  {
+    "id": "vmd-oliveyoung-01",
+    "category": "VMD",
+    "title": "[CJ 올리브영] VMD",
+    "sequence": 1,
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-itzy-untouchable-mv"
+  },
+  {
+    "id": "vmd-oliveyoung-02",
+    "category": "VMD",
+    "title": "[CJ 올리브영] VMD",
+    "sequence": 2,
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "cj-vmd"
+  },
+  {
+    "id": "vmd-oliveyoung-03",
+    "category": "VMD",
+    "title": "[CJ 올리브영] VMD",
+    "sequence": 3,
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-cj-vmd"
+  },
+  {
+    "id": "vmd-oliveyoung-04",
+    "category": "VMD",
+    "title": "[CJ 올리브영] VMD",
+    "sequence": 4,
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-copy-of-cj-vmd"
+  },
+  {
+    "id": "vmd-oliveyoung-05",
+    "category": "VMD",
+    "title": "[CJ 올리브영] VMD",
+    "sequence": 5,
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "cj-vmd-1"
+  },
+  {
+    "id": "stage-living-double-life",
+    "category": "Stage Design",
+    "title": "무대 디자인 [살아있는 이중생 각하]",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of-vr-2"
+  },
+  {
+    "id": "stage-pillowman",
+    "category": "Stage Design",
+    "title": "무대 디자인 [필로우맨]",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "copy-of"
+  },
+  {
+    "id": "stage-waiting-for-you",
+    "category": "Stage Design",
+    "title": "무대 디자인 [당신을 기다리고 있어]",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "sd3"
+  },
+  {
+    "id": "production-cave-raider",
+    "category": "Production Design",
+    "title": "Unreal Engine 5 [CAVE RAIDER]",
+    "inventoryStatus": "sampled-text-and-media",
+    "sourceRoute": "1679499fd1a914"
+  },
+  {
+    "id": "production-normal-business",
+    "category": "Production Design",
+    "title": "프로덕션 디자인 [정상영업 합니다]",
+    "inventoryStatus": "renditions-copied",
+    "sourceRoute": "pd1"
+  }
+]
