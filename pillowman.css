@@ -15,3 +15,8 @@ html{scroll-padding-top:0}.author>span{font:400 11px Arial,sans-serif;margin-lef
 html{scroll-behavior:auto}
 
 .back-to-works{display:block;padding:12px var(--space);font-size:11px;border-bottom:1px solid #ddd}.is-embedded .back-to-works{display:none}.skip-link{position:fixed;top:-100px;left:12px;z-index:100;padding:9px 14px;background:#fff;color:#000}.skip-link:focus{top:10px}
+
+/* Separate the nine editorial sections without changing their internal layouts. */
+#pillowman-main{--section-gap:clamp(64px,8vw,112px)}
+#pillowman-main>section+section{position:relative;margin-block-start:var(--section-gap)}
+#pillowman-main>section+section::before{content:'';position:absolute;inset-inline:var(--space);top:calc(var(--section-gap)/-2);border-top:1px solid #b8b8b8;pointer-events:none}
