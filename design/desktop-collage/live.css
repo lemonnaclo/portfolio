@@ -5,5 +5,39 @@
 .featured-window .titlebar,.window-menu,.folder-tools,.folder-filters,.window-footer{flex-shrink:0}.featured-window .files{flex:1;min-height:0;overflow:auto}
 .folder-tools{display:flex;align-items:center;gap:10px;padding:9px 12px;background:#edf0fa;border:1px solid #c4cbdc;border-top:0}.folder-search-label{font-size:10px;color:#7c7790;white-space:nowrap}.folder-tools input{width:100%;font:12px SCDream,sans-serif;min-height:33px;padding:7px 10px;background:#fff9;color:#5c5877;border:1px solid #c3c1d8;border-radius:2px;outline-offset:2px}.folder-filters{display:flex;gap:5px;padding:7px 10px;background:#e7eaf5;border:1px solid #c4cbdc;border-top:0;overflow-x:auto;scrollbar-width:none}.folder-filters button{flex-shrink:0;background:none;border:1px solid transparent;padding:4px 8px;color:#8b829f;font-size:10px;border-radius:2px;white-space:nowrap}.folder-filters button[aria-pressed=true]{border-color:#b4b4ce;background:#fff8;color:#655776}.file-art{aspect-ratio:1.6}.file-art>img{height:100%;object-fit:cover}.file-art>img.contain{object-fit:contain;background:#171a25}.file-empty{display:grid;place-items:center;height:100%;min-height:90px;background:#c4c7df;color:#7c769a;font-size:25px}.folder-empty{grid-column:1/-1;padding:20px 5px;color:#82738d;font-size:12px}
 .app-window{position:absolute;pointer-events:auto;width:min(1050px,calc(100% - 280px));height:min(700px,calc(100% - 130px));min-width:350px;min-height:300px;max-width:calc(100% - 24px);display:flex;flex-direction:column}.app-window .titlebar{cursor:move;touch-action:none;flex-shrink:0}.app-content{flex:1;min-height:0;margin-top:3px;border:1px solid #aab8cf;overflow:auto;background:#f6f5fc}.frame-content{position:relative;overflow:hidden;background:#0b0c0e}.frame-content iframe{display:block;width:100%;height:100%;border:0;background:#0b0c0e}.frame-progress{position:absolute;inset:0;display:grid;place-items:center;background:#12151d;color:#b6bfd3;font-size:12px;z-index:1}.app-window[data-active=false] .frame-content:after{content:'';position:absolute;inset:0;background:transparent;z-index:2}.app-window[data-active=false] .titlebar{filter:saturate(.4);opacity:.9}.app-window.maximized{inset:45px 14px 53px!important;width:auto!important;height:auto!important;max-width:none}.readme-window{width:min(600px,calc(100% - 70px));height:390px}.desktop-readme{padding:30px;color:#76698a;font-size:13px;line-height:2}.desktop-readme h2{font-size:24px;font-weight:400;letter-spacing:-.04em;margin:8px 0 22px}.desktop-readme p{margin:12px 0}.desktop-readme small{display:block;font-size:11px;color:#948aa5;border-top:1px solid #d4cede;margin-top:25px;padding-top:16px}.noscript-message{position:fixed;inset:0;z-index:9999;display:grid;place-content:center;text-align:center;background:#eeecfb;color:#75648b;padding:30px}.noscript-message a{color:#6f5c92}
-@media(max-width:1050px) and (min-width:701px){.app-window{width:calc(100% - 48px);left:24px!important;top:65px!important;height:calc(100% - 130px)}.readme-window{width:min(600px,calc(100% - 48px));height:390px}}
+@media(max-width:1050px) and (min-width:701px){.app-window{width:calc(100% - 48px);height:calc(100% - 130px)}.readme-window{width:min(600px,calc(100% - 48px));height:390px}}
 @media(max-width:700px){.scene{inset:0}.app-window,.app-window.maximized,.readme-window{position:fixed!important;inset:7px 7px 54px!important;width:calc(100% - 14px)!important;height:auto!important;max-width:none;min-width:0;min-height:0}.app-window .titlebar{cursor:default;min-height:34px}.app-window .controls button,.app-window .controls img{width:26px;height:26px}.app-window .photo-maximize{display:none}.featured-window,.featured-window.maximized{inset:7px 7px 54px!important;max-height:none;min-height:0;height:auto!important}.folder-tools{padding:8px;gap:7px}.folder-tools input{font-size:16px;min-height:38px}.folder-search-label{font-size:9px}.folder-filters{padding:6px}.folder-filters button{font-size:9px;padding:5px 6px}.desktop-readme{padding:24px 20px;font-size:12px}.desktop-readme h2{font-size:23px}.taskbar #restore{display:flex}.taskbar #restore>span{display:none}.taskbar .photo-task{flex-basis:90px}.taskbar>time{padding:5px;min-width:44px}.taskbar{gap:3px}.taskbar button{gap:4px}}
+
+/* Shared window geometry keeps every app inside the available desktop. */
+.window-interacting,.window-interacting *{user-select:none!important}
+.window-interacting iframe{pointer-events:none}
+.resize-handle{position:absolute;z-index:5;touch-action:none}
+.resize-n,.resize-s{height:8px;left:9px;right:9px;cursor:ns-resize}
+.resize-n{top:-3px}.resize-s{bottom:-3px}
+.resize-e,.resize-w{width:8px;top:9px;bottom:9px;cursor:ew-resize}
+.resize-e{right:-3px}.resize-w{left:-3px}
+.resize-ne,.resize-nw,.resize-se,.resize-sw{width:14px;height:14px}
+.resize-ne{top:-3px;right:-3px;cursor:nesw-resize}.resize-sw{bottom:-3px;left:-3px;cursor:nesw-resize}
+.resize-nw{top:-3px;left:-3px;cursor:nwse-resize}.resize-se{bottom:-3px;right:-3px;cursor:nwse-resize}
+.maximized>.resize-handle{display:none}
+.folder-navigation{display:flex;gap:3px;flex-shrink:0}
+.folder-navigation button,#folder-path button{background:#fff7;color:#625a7a;border:1px solid #bac1d6;border-radius:2px;min-width:28px;min-height:28px;padding:2px 6px}
+.folder-navigation button:disabled{opacity:.35;cursor:default}
+#folder-path{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#folder-path button{font-size:inherit}#folder-count{white-space:nowrap}
+.category-folder{text-align:center;padding:20px 8px;align-self:start}
+.category-folder>img{width:62px;height:62px;object-fit:contain;margin:0 auto 14px}
+@media(min-width:701px){
+ .app-window,.featured-window,.stage-window{min-width:320px;min-height:220px;max-width:100%;max-height:none}
+ .app-window.maximized,.featured-window.maximized,.stage-window.maximized{position:fixed;inset:0 0 43px!important;width:auto!important;height:auto!important;max-width:none;max-height:none;margin:0;border-radius:0}
+ .stage-window .titlebar,.stage-caption,.stage-meta{flex-shrink:0}
+ .stage-window{height:clamp(260px,26vw,440px)}
+ .stage-window .photo-open{flex:1;min-height:0}
+ .stage-window .photo-open>img{height:100%;object-fit:contain;aspect-ratio:auto}
+}
+@media(max-width:700px){
+ .featured-window,.featured-window.maximized{width:calc(100% - 14px)!important;max-width:none}
+ .resize-handle{display:none}.window-menu{gap:6px;padding:6px}
+ .folder-navigation{gap:2px}.folder-navigation button{min-width:27px;min-height:30px}
+ #folder-count{font-size:8px}.category-folder>img{width:52px;height:52px}
+}
