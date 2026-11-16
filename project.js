@@ -1,8 +1,12 @@
 (async () => {
   'use strict';
   const requested = new URLSearchParams(location.search);
-  if (requested.get('id') === 'stage-pillowman') {
-    const destination = new URL('./pillowman.html', location.href);
+  const editorialPages = {
+    'stage-pillowman': './pillowman.html',
+    'stage-waiting-for-you': './waiting-for-you.html'
+  };
+  if (Object.hasOwn(editorialPages, requested.get('id'))) {
+    const destination = new URL(editorialPages[requested.get('id')], location.href);
     if (requested.get('embedded') === '1') destination.searchParams.set('embedded', '1');
     destination.hash = location.hash;
     location.replace(destination.href);
