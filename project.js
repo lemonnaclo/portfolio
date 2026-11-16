@@ -3,7 +3,9 @@
   const requested = new URLSearchParams(location.search);
   const editorialPages = {
     'stage-pillowman': './pillowman.html',
-    'stage-waiting-for-you': './waiting-for-you.html'
+    'stage-waiting-for-you': './waiting-for-you.html',
+    'stage-living-double-life': './living-double-life.html',
+    'production-normal-business': './normal-business.html'
   };
   if (Object.hasOwn(editorialPages, requested.get('id'))) {
     const destination = new URL(editorialPages[requested.get('id')], location.href);
@@ -27,19 +29,29 @@
     if (authoredPages?.length) images = authoredPages.map(page => ({url:assetUrl(project,page.path), displayUrl:assetUrl(project,page.path), alt:project.displayTitle + ' 원본 편집 ' + page.sourcePage + '쪽', width:page.width, height:page.height}));
     const mediaButton = (image,index) => '<button class="media-open" type="button" data-gallery-index="' + index + '" aria-label="' + esc(project.displayTitle) + ' 이미지 ' + (index+1) + ' 크게 보기"><img src="' + esc(image.displayUrl || image.url) + '" alt="' + esc(image.alt) + '"' + (index ? ' loading="lazy"' : '') + ' decoding="async"></button>';
     const meta = [];
-    if(project.roleLabel || project.role) meta.push(['Role',project.roleLabel || project.role]);
-    if(project.date || project.year) meta.push(['Year',project.date || project.year]);
-    if(project.context) meta.push(['Project',project.context]);
-    if(project.tools?.length) meta.push(['Tools',project.tools.join(' / ')]);
-    if(project.credits) meta.push(['Credits',project.credits]);
-    const summary = project.summary || project.description || project.subtitle || '';
-    const detailText = !project.sections?.length && project.detail && project.detail !== summary ? '<p>' + esc(project.detail) + '</p>' : '';
+    if(project.roleLabel || project.role) meta.push(['역할',project.roleLabel || project.role]);
+    const period = project.id === 'production-cave-raider' ? project.detail : project.date || project.year;
+    if(period) meta.push(['기간',period]);
+    if(project.id === 'vmd-oliveyoung-01' && project.description) meta.push(['기간',project.description]);
+    if(project.context) meta.push(['프로젝트',project.context]);
+    if(project.tools?.length) meta.push(['도구',project.tools.join(' / ')]);
+    if(project.credits) meta.push(['크레딧',project.credits]);
+    const summary = ['3d-itzy-untouchable','3d-vr-ac-simulation','vmd-oliveyoung-04'].includes(project.id) ? project.summary || '' : '';
+    const detail = project.detail && /Modeling|Texture|Lighting/.test(project.detail) ? project.detail : '';
     const localVideos=(project.media||[]).filter(item=>item.type==='video'&&item.path);
     const localVideoHtml=localVideos.map(item=>'<div class="project-video-block"><video class="project-video" controls playsinline preload="metadata" aria-label="'+esc(project.displayTitle)+' 영상"><source src="'+esc(assetUrl(project,item.path))+'" type="'+esc(item.mimeType||'video/mp4')+'">동영상을 재생할 수 없습니다. <a href="'+esc(assetUrl(project,item.path))+'" download>영상 다운로드</a></video></div>').join('');
     const videoItems=(project.media||[]).filter(item=>item.type==='video-embed');
     const videoLink = videoItems.length && project.sourceRoute ? '<div class="video-source"><p>' + (images.length ? '이 작업의 영상도 볼 수 있습니다.' : esc(project.displayTitle) + ' · 시네마틱 영상') + '</p><a href="https://junaaayoung.myportfolio.com/' + encodeURIComponent(project.sourceRoute) + '" target="_blank" rel="noopener noreferrer">영상이 있는 원본 프로젝트 보기 ↗</a></div>' : '';
     const heroHtml=images.length?'<div class="project-hero">'+mediaButton(images[0],0)+'</div>':localVideos.length?'<div class="project-hero">'+localVideoHtml+'</div>':'<div class="project-hero no-image-project"><div class="art-placeholder"><span>'+esc(project.displayTitle)+'</span><small>'+esc(project.subtitle||'')+'</small></div></div>';
-    if (!authoredPages?.length) target.innerHTML = '<header><p class="project-kicker">' + esc(project.category) + (project.year ? ' / ' + esc(project.year) : '') + '</p><h1 class="project-title">' + esc(project.displayTitle) + '</h1>' + (project.subtitle ? '<p class="project-subtitle">' + esc(project.subtitle) + '</p>' : '') + '</header>' + heroHtml + '<section class="project-overview" aria-label="작업 소개"><div class="project-summary">' + esc(summary) + detailText + '</div><dl class="project-meta">' + meta.map(pair=>'<dt>'+esc(pair[0])+'</dt><dd>'+esc(pair[1])+'</dd>').join('') + '</dl></section>' + (project.sections?.length ? '<section class="project-story" aria-label="작업 이야기">' + project.sections.map(item=>'<div class="story-item"><h2>'+esc(item.title)+'</h2><p>'+esc(item.text)+'</p></div>').join('') + '</section>' : '') + (images.length>1 ? '<section class="project-gallery" aria-labelledby="gallery-title"><h2 id="gallery-title">Images & process</h2>' + images.slice(1).map((image,index)=>'<figure class="gallery-item">'+mediaButton(image,index+1)+'<figcaption>'+String(index+2).padStart(2,'0')+' / '+String(images.length).padStart(2,'0')+'</figcaption></figure>').join('') + '</section>' : '') + (images.length&&localVideos.length?'<section class="project-gallery"><h2>Video</h2>'+localVideoHtml+'</section>':'') + videoLink;
+    if (!authoredPages?.length) {
+      target.classList.add('standard-project');
+      const overview = summary || detail || meta.length ? '<section class="project-overview" aria-label="작업 정보">' +
+        (summary || detail ? '<div class="project-summary">' + (summary ? '<p>'+esc(summary)+'</p>' : '') + (detail ? '<p class="production-time">'+esc(detail)+'</p>' : '') + '</div>' : '') +
+        (meta.length ? '<dl class="project-meta">' + meta.map(pair=>'<dt>'+esc(pair[0])+'</dt><dd>'+esc(pair[1])+'</dd>').join('')+'</dl>' : '') + '</section>' : '';
+      const story = project.sections?.length ? '<section class="project-story" aria-label="작업 이야기">'+project.sections.map(item=>'<div class="story-item"><h2>'+esc(item.title)+'</h2><p>'+esc(item.text)+'</p></div>').join('')+'</section>' : '';
+      const gallery = images.length>1 ? '<section class="project-gallery" aria-label="작업 이미지"><div class="project-image-grid">'+images.slice(1).map((image,index)=>'<figure class="gallery-item">'+mediaButton(image,index+1)+'</figure>').join('')+'</div></section>' : '';
+      target.innerHTML = '<header class="project-heading"><p class="project-kicker">'+esc(project.category)+'</p><h1 class="project-title">'+esc(project.displayTitle)+'</h1>'+(project.subtitle ? '<p class="project-subtitle">'+esc(project.subtitle)+'</p>' : '')+'</header>'+heroHtml+overview+story+gallery+(images.length&&localVideos.length?'<section class="project-gallery" aria-label="작업 영상">'+localVideoHtml+'</section>':'')+videoLink;
+    }
     if (authoredPages?.length) {
       document.documentElement.classList.add('has-authored-layout');
       target.classList.add('authored-layout');

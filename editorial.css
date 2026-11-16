@@ -1,0 +1,24 @@
+#editorial-main{--section-gap:clamp(56px,5.5vw,80px)}
+#editorial-main>section+section{position:relative;margin-block-start:var(--section-gap)}
+#editorial-main>section+section::before{content:'';position:absolute;inset-inline:var(--space);top:calc(var(--section-gap)/-2);border-top:1px solid #b8b8b8;pointer-events:none}
+.project-name{font-size:clamp(28px,3.3vw,50px);word-break:keep-all}.credits{font-size:12px}.cover-info{grid-template-columns:1.2fr 1fr}
+.black{background:#000;color:#fff}.black>.section-title{padding:26px var(--space) 0}.black.pad>.section-title{padding:0}
+.photo-concept{position:relative;background:#000;color:#fff}
+.photo-copy{position:absolute;left:61.5%;top:12%;width:25%;font-size:clamp(11px,.9vw,14px);line-height:1.85}
+.photo-copy h2{font-size:clamp(16px,1.55vw,24px);margin:0 0 22px;font-weight:900}
+.photo-copy p+p{margin-top:22px}.photo-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.model-concepts .row-title{text-align:center;margin-top:20px}.model-concepts figcaption,.living-drawings figcaption{text-align:center;font-size:12px;margin-top:8px}
+.model-concepts .principles{gap:18px 12px}.model-concepts .principles h3{font-size:12px}
+.circulation-refs{display:grid;grid-template-columns:3.5fr 1.05fr 1fr 3.4fr;gap:12px;align-items:end}
+.circulation-refs figure{min-width:0;background:#e3e3e3}.circulation-refs figcaption{padding:8px;font-size:11px}.circulation-refs h3{font-size:13px;margin-bottom:4px}.circulation-plans{margin-top:32px;gap:7%;align-items:start}.circulation-plans figcaption{text-align:center;font:400 16px/1.5 Arial,sans-serif;margin-top:10px}
+.living-drawings{gap:24px 16px}.quote-photo>blockquote{font-size:12px;line-height:1.85;padding:30px var(--space);max-width:1000px}.quote-photo>blockquote:last-child{margin-left:auto;text-align:right}
+.business-concept{display:grid;grid-template-columns:1fr 1fr;gap:6%}.business-concept>div{min-width:0}.business-concept .keywords{margin-top:0;font-size:13px}.business-copy{font-size:12px;line-height:1.85}.business-detail{margin-top:32px}.business-detail figcaption{font-size:12px;margin-bottom:10px}.business-renders{display:flex;flex-direction:column;gap:10px}.business-renders .row-title{font-size:13px;margin:0}
+.scene-page-title{display:flex;align-items:start;justify-content:space-between;gap:20px;padding-block:27px}.scene-page-title h2{font-size:20px;line-height:1.5}.scene-page-title p{font-size:12px}.scene-page-title>p{font:11px/1.85 Arial,sans-serif}
+.edge-grid{gap:12px}.mosaic-top{display:grid;grid-template-columns:2fr 1fr;gap:10px;align-items:start}.mosaic-top>div{display:grid;gap:10px}.mosaic-bottom{display:grid;gap:10px;margin:10px 0 0 auto;width:88%}.mosaic-3{grid-template-columns:.5fr 1.3fr 1fr}.mosaic-2{grid-template-columns:1fr 1fr;width:82%}
+@media(max-width:1000px){.photo-concept{display:grid;grid-template-columns:1fr 1fr;align-items:center}.photo-copy{position:static;width:auto;padding:24px;font-size:12px}.photo-concept>.crop-button{height:100%}.photo-concept .crop{height:100%;aspect-ratio:auto!important}.photo-concept img{height:100%;width:100%!important;object-fit:cover;object-position:left}.circulation-refs{grid-template-columns:1fr 1fr}.model-concepts .principles{grid-template-columns:1fr}}
+@media(max-width:700px){
+ .project-name{font-size:32px}.cover-info{grid-template-columns:1fr}.photo-concept{grid-template-columns:1fr}.photo-concept .crop{height:auto;aspect-ratio:16/9!important}.photo-copy{padding:26px 22px;font-size:13px}.photo-copy h2{font-size:20px}.photo-copy p+p{margin-top:18px}
+ .photo-grid,.model-concepts,.circulation-plans,.living-drawings,.business-concept{grid-template-columns:1fr}.photo-grid{gap:14px}.model-concepts{gap:28px}.model-concepts .row-title{font-size:15px}.model-concepts .principles h3{font-size:13px}
+ .circulation-refs{grid-template-columns:1fr;gap:20px}.circulation-refs h3{font-size:14px}.circulation-refs figcaption{font-size:12px}.circulation-plans{gap:26px}.quote-photo>blockquote{font-size:13px;padding:24px 22px}
+ .business-copy{font-size:13px}.business-concept{gap:28px}.business-concept .keywords{font-size:14px}.business-detail{margin-top:24px}.scene-page-title h2{font-size:20px}.scene-page-title{flex-wrap:wrap;padding-block:24px}.mosaic-top,.mosaic-2,.mosaic-3{grid-template-columns:1fr}.mosaic-top,.mosaic-top>div{gap:14px}.mosaic-bottom{width:100%;gap:14px;margin-top:14px}
+}

@@ -1,0 +1,30 @@
+/* Project pages share a quiet scale; source images keep their full proportions. */
+.project-main{padding-top:100px}.project-back{margin-bottom:32px}
+.standard-project{--project-gap:clamp(56px,5.5vw,80px)}
+.standard-project .project-heading{max-width:1100px}
+.standard-project .project-title,.is-embedded .standard-project .project-title{font-size:clamp(28px,3.5vw,48px);line-height:1.25;font-weight:500;letter-spacing:-.04em}
+.standard-project .project-kicker{font-size:10px;margin-bottom:12px}
+.standard-project .project-subtitle{font-size:12px;margin-top:12px}
+.standard-project .project-hero,.is-embedded .standard-project .project-hero{margin-top:28px}
+.standard-project .project-hero .media-open{display:grid;place-items:center}
+.standard-project .project-hero img{display:block;width:auto;max-width:100%;max-height:85svh;height:auto;object-fit:contain}
+.standard-project .project-overview,.is-embedded .standard-project .project-overview{grid-template-columns:1fr 1fr;gap:6%;padding-block:28px 0}
+.standard-project .project-overview>.project-meta:only-child{grid-column:1/-1;max-width:720px}
+.standard-project .project-overview .project-summary{font-size:13px;line-height:1.85;font-weight:400;letter-spacing:0;word-break:normal;overflow-wrap:anywhere}
+.standard-project .project-summary p{margin:0}.standard-project .project-summary p+p{margin-top:12px}
+.standard-project .production-time{font:12px/1.85 Arial,sans-serif;color:var(--muted)}
+.standard-project .project-meta{font-size:12px;line-height:1.85;grid-template-columns:60px minmax(0,1fr);gap:8px 16px;overflow-wrap:anywhere}
+.standard-project .project-gallery,.standard-project .project-story{margin-top:var(--project-gap);padding-top:calc(var(--project-gap)/2);border-top:1px solid var(--line)}
+.standard-project .project-image-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px;align-items:start}
+.standard-project .gallery-item{margin:0;min-width:0}.standard-project .gallery-item img{display:block;width:100%;height:auto;object-fit:contain}
+.standard-project .project-video{display:block;width:100%;max-height:85svh;background:#000}
+.standard-project .video-source{margin-top:var(--project-gap);padding:22px;gap:14px}
+.standard-project .video-source p{font-size:12px}.project-navigation{margin-block:60px}.project-navigation a{font-size:15px}
+@media(max-width:700px){
+ .project-main{padding-top:90px}.project-back{margin-bottom:26px}
+ .standard-project .project-title,.is-embedded .standard-project .project-title{font-size:28px}
+ .standard-project .project-overview,.is-embedded .standard-project .project-overview{grid-template-columns:1fr;gap:22px;padding-top:24px}
+ .standard-project .project-meta{font-size:12px}.standard-project .project-image-grid{grid-template-columns:1fr;gap:24px}
+ .standard-project .project-gallery{padding-top:28px}.standard-project .project-hero img{max-height:none}
+ .project-navigation a{font-size:13px}
+}
