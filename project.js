@@ -1,5 +1,13 @@
 (async () => {
   'use strict';
+  const requested = new URLSearchParams(location.search);
+  if (requested.get('id') === 'stage-pillowman') {
+    const destination = new URL('./pillowman.html', location.href);
+    if (requested.get('embedded') === '1') destination.searchParams.set('embedded', '1');
+    destination.hash = location.hash;
+    location.replace(destination.href);
+    return;
+  }
   const { esc, loadData, projectUrl, assetUrl, reveal } = window.Portfolio;
   const target = document.getElementById('project');
   try {
