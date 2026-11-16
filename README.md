@@ -4,6 +4,8 @@
 
 **다른 PC에서 시작하려면 [START-HERE.md](START-HERE.md)를 먼저 보세요.**
 
+2026-11-16 변경 내역과 남은 작업은 [HANDOFF.md](HANDOFF.md), PDF 기반 웹 편집 방법은 [AUTHORED-LAYOUTS.md](AUTHORED-LAYOUTS.md)에 정리했습니다. 배포와 새 PC 작업은 `main` 기준입니다. 로컬에서는 루트에서 `python -m http.server 8767 --bind 127.0.0.1` 실행 후 브라우저로 접속하는 방식을 권장합니다.
+
 ## 시작 파일
 
 | 경로 | 용도 |
